@@ -10,39 +10,115 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-
   <body>
     <header>
       <img src="images/Vector.svg" alt="logo du site" />
       <nav>
         <ul>
-          <li>
-            Accueil
-          </li>
-          <li>
-            Fiches animaux
-          </li>
-          <li>
-            Quizz
-          </li>
-          <li>
-            Contact
-          </li>
+          <li>Accueil</li>
+          <li>Fiches animaux</li>
+          <li>Quizz</li>
+          <li>Contact</li>
         </ul>
       </nav>
     </header>
-
     <section class="breadcrumb">
       <ul>
         <li><a href="acceuil.png" title="acceuil">Accueuil</a></li>
         <li>
-          <a href="Fiches animaux.png" title="Fiches animaux"
-            >Fiches animaux</a>
+          <a href="Fiches animaux.png" title="Fiches animaux">Fiches animaux</a>
         </li>
         <li>Écureuil roux</li>
       </ul>
     </section>
 
+    <section id="nuno">
+      <div class="overview">
+        <h1>L'écureuil roux</h1>
+        <picture>
+          <img src="images/eccureil.png" alt="image d'un écureuil" />
+        </picture>
+      </div>
+      <article>
+        <h2>Introduction</h2>
+        <p>
+          L<strong>'écureuil roux</strong>est parfaitement adapté à la vie
+          arboricole. Grâce à ses pattes musclées, ce maître des branches fait
+          preuve d'une agilité remarquable. Lorsqu'il s'agit de cacher de la
+          nourriture, cet
+          <a
+            href="https://www.larousse.fr/dictionnaires/francais/rus%C3%A9/70284"
+            title=""
+            >animal rusé</a
+          >
+          sait se montrer inventif. C'est le seul écureuil autochtone présent
+          sur le territoire français.
+        </p>
+
+        <hr />
+
+        <h2>Caractéristiques</h2>
+        <p>
+          Sa longue queue lui offre un excellent équilibre, tandis que ses
+          griffes acérées assurent une prise solide sur l'écorce des arbres. La
+          teinte rousse de son pelage lui procure un excellent camouflage dans
+          la forêt. Son anatomie est semblable à celle des rats et des souris.
+          Ses dents de devant poussent tout au long de sa vie et sont usées au
+          fur et à mesure qu'il ronge des fruits à coque et des graines.
+        </p>
+
+        <table border="1" width="50%">
+          <thead>
+            <tr>
+              <th>Caractéristique</th>
+              <th>Détails</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Groupe</td>
+              <td>Petits</td>
+            </tr>
+            <tr>
+              <td>Ordre</td>
+              <td>Rodentiens</td>
+            </tr>
+            <tr>
+              <td>Famille</td>
+              <td>Sciuridés</td>
+            </tr>
+            <tr>
+              <td>Genre</td>
+              <td>Sciurus</td>
+            </tr>
+            <tr>
+              <td>Nom scientifique</td>
+              <td>Sciuris vulgaris</td>
+            </tr>
+            <tr>
+              <td>Descripteur</td>
+              <td>Linnaeus, 1758</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr size="1" color="#000000" />
+
+        <h2>Caractère et comportement</h2>
+        <p>
+          Solitaire, l'écureuil roux passe 70 % de son temps dans les branches
+          des arbres. Chaque écureuil occupe un territoire dont la taille varie
+          entre 3 et 7 hectares. Cependant, la plupart du temps, ces territoires
+          se chevauchent sans provoquer de conflits.
+        </p>
+
+        <p>
+          Bien qu'il ait un petit cerveau,
+          <strong>il est très intelligent</strong> et utilise sa mémoire
+          spatiale pour retrouver ses provisions cachées plus tôt dans l'année.
+        </p>
+      </article>
+    </section>
     <section>
       <article>
         <h2>Habitat et répartition géographique</h2>
@@ -66,11 +142,10 @@
       <article>
         <h2>Découvrez d’autres animaux</h2>
         <div id="fichesAnimaux">
-
           <div class="ficheAnimal">
             <div class="ficheAnimal__picture">
               <picture>
-                <img src="images/jaguar.png" alt="Jaguar"/>
+                <img src="images/jaguar.png" alt="Jaguar" />
               </picture>
             </div>
             <a class="ficheAnimal__name" href="images/jaguar.png">Jaguar</a>
@@ -79,16 +154,18 @@
           <div class="ficheAnimal">
             <div class="ficheAnimal__picture">
               <picture>
-                <img src="images/jaguar.png" alt="Jaguar"/>
+                <img src="images/jaguar.png" alt="Jaguar" />
               </picture>
             </div>
-            <a class="ficheAnimal__name" href="images/jaguar.png" title="">Jaguar</a>
+            <a class="ficheAnimal__name" href="images/jaguar.png" title=""
+              >Jaguar</a
+            >
           </div>
 
           <div class="ficheAnimal">
             <div class="ficheAnimal__picture">
               <picture>
-                <img src="images/jaguar.png" alt="Jaguar"/>
+                <img src="images/jaguar.png" alt="Jaguar" />
               </picture>
             </div>
             <a class="ficheAnimal__name" href="images/jaguar.png">Jaguar</a>
@@ -97,94 +174,93 @@
           <div class="ficheAnimal">
             <div class="ficheAnimal__picture">
               <picture>
-                <img src="images/jaguar.png" alt="Jaguar"/>
+                <img src="images/jaguar.png" alt="Jaguar" />
               </picture>
             </div>
             <a class="ficheAnimal__name" href="images/jaguar.png">Jaguar</a>
           </div>
-      </div>
 
-        <p>
           <picture>
             <img src="images/quokka.png" alt="Quokka" style="width: auto" />
           </picture>
-          <p><a href="images/quokka.png">Quokka</a></p>
-        </p>
-        <p>
+          <a href="images/quokka.png">Quokka</a>
+
           <picture>
             <img src="images/giraffe.png" alt="Giraffe" style="width: auto" />
           </picture>
-          <p><a href="images/giraffe.png">Giraffe</a></p>
-        </p>
-        <p>
+          <a href="images/giraffe.png">Giraffe</a>
+
           <picture>
             <img src="images/lion.png" alt="Lion" style="width: auto" />
           </picture>
-          <p><a href="images/lion.png">Lion</a></p>
-        </p>
+          <a href="images/lion.png">Lion</a>
+        </div>
       </article>
+    </section>
 
-      <div>
-        <h2>Partager cet article</h2>
-        <ul>
-          <li><a href="facebook.png">Facebook</a></li>
-          <li><a href="Pinterest.png">Pinterest</a></li>
-          <li><a href="Twitter.png">Twitter</a></li>
-        </ul>
-      </div>
+    <div>
+      <h2>Partager cet article</h2>
+      <ul>
+        <li><a href="facebook.png">Facebook</a></li>
+        <li><a href="Pinterest.png">Pinterest</a></li>
+        <li><a href="Twitter.png">Twitter</a></li>
+      </ul>
+    </div>
 
-      <section class="comments-list">
-        <h2>Commentaires</h2>
-        <p>Aucun commentaire n’a été publié pour le moment !</p>
-      </section>  
+    <section class="comments-list">
+      <h2>Commentaires</h2>
+      <p>Aucun commentaire n’a été publié pour le moment !</p>
+    </section>
 
-      <section class="comments-form">
-        <h2>Ajouter un commentaire</h2>
-      
-        <form action="/ma-page-de-traitement" method="post">
-          
-          <div class="form-group">
-            <div class="form-group__label">
-              <label for="name">Votre pseudonyme :</label>
-            </div>
-            <div class="form-group__control">
-              <input type="text" id="pseudonyme" name="user_pseudonyme" />
-            </div>
+    <section class="comments-form">
+      <h2>Ajouter un commentaire</h2>
+
+      <form action="/ma-page-de-traitement" method="post">
+        <div class="form-group">
+          <div class="form-group__label">
+            <label for="name">Votre pseudonyme :</label>
           </div>
-
-         <!-- html br for doc -->
-          <br>
-
-          <div class="form-group">
-            <div class="form-group__label">
-              <label for="name">Votre pseudonyme :</label>
-            </div>
-            <div class="form-group__control">
-              <input type="text" id="pseudonyme" name="user_pseudonyme" />
-            </div>
+          <div class="form-group__control">
+            <input type="text" id="pseudonyme" name="user_pseudonyme" />
           </div>
+        </div>
 
+        <!-- html br for doc -->
+        <br />
 
+        <div class="form-group">
+          <div class="form-group__label">
+            <label for="name">Votre pseudonyme :</label>
+          </div>
+          <div class="form-group__control">
+            <input type="text" id="pseudonyme" name="user_pseudonyme" />
+          </div>
+        </div>
 
+        <div>
+          <label for="mail">Votre adresse e-mail :</label>
+          <p><input type="email" id="mail" name="user_mail" /></p>
+        </div>
+        <div>
+          <label for="msg">Votre commentaire :</label>
+          <p><textarea id="msg" name="user_message"></textarea></p>
+        </div>
+      </form>
 
-            <div>
-              <label for="mail">Votre adresse e-mail :</label>
-              <p><input type="email" id="mail" name="user_mail" /></p>
-            </div>
-            <div>
-              <label for="msg">Votre commentaire :</label>
-              <p><textarea id="msg" name="user_message"></textarea></p>
-            </div>
-          
-        </form>
-       
-        <label for="policy" style="display: block !important">
-          <input name="policy" value="policy-key" type="checkbox" aria-required="true" id="policy"/> 
-          En ajoutant un commentaire, je reconnais avoir pris connaissance de la <a href="politique.png">Politique de confidentialité</a> et des droits dont je dispose sur mes données personnelles.
-        </label>
-        
-        <button type="submit">Ajouter mon commentaire</button>
-      </section>
+      <label for="policy" style="display: block !important">
+        <input
+          name="policy"
+          value="policy-key"
+          type="checkbox"
+          aria-required="true"
+          id="policy"
+        />
+        En ajoutant un commentaire, je reconnais avoir pris connaissance de la
+        <a href="politique.png">Politique de confidentialité</a> et des droits
+        dont je dispose sur mes données personnelles.
+      </label>
+
+      <button type="submit">Ajouter mon commentaire</button>
     </section>
   </body>
 </html>
