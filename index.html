@@ -1,24 +1,190 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="bibliotheque educative des animaux">
-    <meta name="author" content="Angel & Nuno">
-    <meta name="Classification" content="Educative">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="bibliotheque educative des animaux" />
+    <meta name="author" content="Angel & Nuno" />
+    <meta name="Classification" content="Educative" />
     <title>Biblio Animaux</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-    <section>
+  </head>
 
-    
+  <body>
+    <header>
+      <img src="images/Vector.svg" alt="logo du site" />
+      <nav>
+        <ul>
+          <li>
+            Accueil
+          </li>
+          <li>
+            Fiches animaux
+          </li>
+          <li>
+            Quizz
+          </li>
+          <li>
+            Contact
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="breadcrumb">
+      <ul>
+        <li><a href="acceuil.png" title="acceuil">Accueuil</a></li>
+        <li>
+          <a href="Fiches animaux.png" title="Fiches animaux"
+            >Fiches animaux</a>
+        </li>
+        <li>Écureuil roux</li>
+      </ul>
     </section>
-    
-    <section>
 
+    <section>
+      <article>
+        <h2>Habitat et répartition géographique</h2>
+        <p>
+          Les écureuils roux s'adaptent facilement à divers types de forêts.
+          Originaires d'Europe et d'Asie, ils habitent aussi bien les forêts de
+          feuillus que celles de conifères. Leur répartition géographique dépend
+          des variétés d'arbres présentes sur leur territoire
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/GluzAfBLBPQ?si=14fQf7OfMhLC7Pxw"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </article>
+
+      <article>
+        <h2>Découvrez d’autres animaux</h2>
+        <div id="fichesAnimaux">
+
+          <div class="ficheAnimal">
+            <div class="ficheAnimal__picture">
+              <picture>
+                <img src="images/jaguar.png" alt="Jaguar"/>
+              </picture>
+            </div>
+            <a class="ficheAnimal__name" href="images/jaguar.png">Jaguar</a>
+          </div>
+
+          <div class="ficheAnimal">
+            <div class="ficheAnimal__picture">
+              <picture>
+                <img src="images/jaguar.png" alt="Jaguar"/>
+              </picture>
+            </div>
+            <a class="ficheAnimal__name" href="images/jaguar.png" title="">Jaguar</a>
+          </div>
+
+          <div class="ficheAnimal">
+            <div class="ficheAnimal__picture">
+              <picture>
+                <img src="images/jaguar.png" alt="Jaguar"/>
+              </picture>
+            </div>
+            <a class="ficheAnimal__name" href="images/jaguar.png">Jaguar</a>
+          </div>
+
+          <div class="ficheAnimal">
+            <div class="ficheAnimal__picture">
+              <picture>
+                <img src="images/jaguar.png" alt="Jaguar"/>
+              </picture>
+            </div>
+            <a class="ficheAnimal__name" href="images/jaguar.png">Jaguar</a>
+          </div>
+      </div>
+
+        <p>
+          <picture>
+            <img src="images/quokka.png" alt="Quokka" style="width: auto" />
+          </picture>
+          <p><a href="images/quokka.png">Quokka</a></p>
+        </p>
+        <p>
+          <picture>
+            <img src="images/giraffe.png" alt="Giraffe" style="width: auto" />
+          </picture>
+          <p><a href="images/giraffe.png">Giraffe</a></p>
+        </p>
+        <p>
+          <picture>
+            <img src="images/lion.png" alt="Lion" style="width: auto" />
+          </picture>
+          <p><a href="images/lion.png">Lion</a></p>
+        </p>
+      </article>
+
+      <div>
+        <h2>Partager cet article</h2>
+        <ul>
+          <li><a href="facebook.png">Facebook</a></li>
+          <li><a href="Pinterest.png">Pinterest</a></li>
+          <li><a href="Twitter.png">Twitter</a></li>
+        </ul>
+      </div>
+
+      <section class="comments-list">
+        <h2>Commentaires</h2>
+        <p>Aucun commentaire n’a été publié pour le moment !</p>
+      </section>  
+
+      <section class="comments-form">
+        <h2>Ajouter un commentaire</h2>
+      
+        <form action="/ma-page-de-traitement" method="post">
+          
+          <div class="form-group">
+            <div class="form-group__label">
+              <label for="name">Votre pseudonyme :</label>
+            </div>
+            <div class="form-group__control">
+              <input type="text" id="pseudonyme" name="user_pseudonyme" />
+            </div>
+          </div>
+
+         <!-- html br for doc -->
+          <br>
+
+          <div class="form-group">
+            <div class="form-group__label">
+              <label for="name">Votre pseudonyme :</label>
+            </div>
+            <div class="form-group__control">
+              <input type="text" id="pseudonyme" name="user_pseudonyme" />
+            </div>
+          </div>
+
+
+
+
+            <div>
+              <label for="mail">Votre adresse e-mail :</label>
+              <p><input type="email" id="mail" name="user_mail" /></p>
+            </div>
+            <div>
+              <label for="msg">Votre commentaire :</label>
+              <p><textarea id="msg" name="user_message"></textarea></p>
+            </div>
+          
+        </form>
+       
+        <label for="policy" style="display: block !important">
+          <input name="policy" value="policy-key" type="checkbox" aria-required="true" id="policy"/> 
+          En ajoutant un commentaire, je reconnais avoir pris connaissance de la <a href="politique.png">Politique de confidentialité</a> et des droits dont je dispose sur mes données personnelles.
+        </label>
         
+        <button type="submit">Ajouter mon commentaire</button>
+      </section>
     </section>
-</body>
+  </body>
 </html>
