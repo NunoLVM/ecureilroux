@@ -11,17 +11,69 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+      <img src="images/Vector.svg" alt="logo du site" />
+      <nav>
+        <ul>
+          <li>Accueil</li>
+          <li>Fiches animaux</li>
+          <li>Quizz</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <section class="breadcrumb">
+        <ul>
+          <li><a href="acceuil.png" title="acceuil">Accueuil</a></li>
+          <li>
+            <title="Nous contacter">Nous contacter</title=>
+          </li>
+          
+        </ul>
+      </section>
+    </header>
     
     
     <section>
-        <div class="contact">
-            <h1>Nous Contacter</h1>
+        <h1>Nous Contacter</h1>
             <p>Pour contacter notre équipe, merci de compléter le formulaire suivant :</p>
 
+            
+        <form action="/traitement.php" method="POST">
+            <label for="nom_prenom">Votre nom et prénom :</label>
+            <!-- html br for doc -->
+            <br>
+            <input type="text" name="nom_prenom" required>
+            <br>
+            <label for="tel">Votre numéro de téléphone: </label>
+            <br>
+            <input type="tel" id="tel" max="10">
+            <br>
+            <label for="email">Votre adresse e-mail :</label>
+            <br>
+            <input form="email" id="email" maxlength="20">
+            <br>
+            <label for="message">Votre message :</label>
+            <br>
+            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+            <br>
+            <input type="checkbox"> En validant ce formulaire, je reconnais avoir pris connaissance de la <a href="">Politique de confidentialité</a> et des droits dont je dispose sur mes données personnelles.
+            <br>
+            <button type="submit" style="width: 200px;height: 35px;background-color: #d3d3d3;"><strong>Envoyer mon message</strong></button>        
 
 
-        </div>
+
+
+
+
+
+
+
+
+        </form>        
+
+
+
+        
     </section>
 
 </body>
