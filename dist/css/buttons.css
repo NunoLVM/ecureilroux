@@ -1,0 +1,27 @@
+.button {
+  background: grey;
+  padding: 50px;
+}
+
+.button-transparent {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+
+.button-icon-close {
+  width: 50px;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: medium;
+  
+
+
+
+}

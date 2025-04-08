@@ -1,17 +1,24 @@
 /* Color */
-:root{
-    --color-orange: #FF9934;
-    --color-blue:#2CBBC3;
-    --color-white:#ffffff;
+:root {
+  --color-orange: #ff9934;
+  --color-blue: #2cbbc3;
+  --color-white: #ffffff;
 }
 
 /* Border radius */
-:root{
-    --border-radius-sm:5px;
+:root {
+  --border-radius-sm: 5px;
 }
 
 /*Box shadow*/
-:root{
-    --box-shadow-sm:0px 0px 10px 32px rgb(0 0 0 /15%);
+:root {
+  --box-shadow-sm: 0px 0px 10px 32px rgb(0 0 0 /15%);
 }
 
+:root {
+  --max-modal-width: 1000px;
+}
+
+:root {
+    --modal-border: 10px;
+}
