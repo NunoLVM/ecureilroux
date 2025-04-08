@@ -17,5 +17,7 @@
 
 /*Font*/
 :root{
-    --font-family-title:'Montserra',serif;
+    --font-family-title: "Montserrat", sans-serif;
+    --font-size-header:25px;
+    --font-line-weight:600;
 }
