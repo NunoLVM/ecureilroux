@@ -5,13 +5,11 @@
 }
 .site-header{
     display:flex;
+     
     
-       background-color: darkgoldenrod;
-       
 }
 .navigation {
-  background-color: brown;
-    /* background-color:var(--color-blue);  */
+    background-color:var(--color-blue); 
     color:var(--color-white);
     font-family:var(--font-family-title);  
     width: 100%; 
@@ -21,7 +19,13 @@
     align-items: center;
     
     }
+.navigation li{
+    margin-left: 50px;
 
+}
+#contact{
+    margin-left:800px ;
+}
 .navigation .navigation-header{
     display: flex;
     justify-content: space-between;
@@ -31,17 +35,15 @@
 .navigation li a {
     color: white;
     text-decoration: none;
-    
-
+    margin-left: auto;
 }
 
 .site-header-logo  {
     color:var(--color-white);
-   /*  background-color:var(--color-orange); */
+    background-color:var(--color-orange);
     width: 170px;
     height: 119px;
     text-align: center;
     align-content: center;
     
 }
-
