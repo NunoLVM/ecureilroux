@@ -15,3 +15,7 @@
     --box-shadow-sm:0px 0px 10px 32px rgb(0 0 0 /15%);
 }
 
+/*Font*/
+:root{
+    --font-family-title:'Montserra',serif;
+}
