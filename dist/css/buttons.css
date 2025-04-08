@@ -1,12 +1,22 @@
 .button {
-  background: grey;
-  padding: 50px;
+  background: rgb(234, 228, 228);
+  padding: 15px;
+  border-radius: var(--border-radius-sm);
+  justify-content: center;
+  
+
 }
 
 .button-transparent {
-  background: transparent;
   outline: none;
   border: none;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+
+
+  
+  
 }
 
 
