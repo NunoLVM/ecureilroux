@@ -1,0 +1,46 @@
+.boxAnimal{
+    background-color: var(--color-blue);
+    /* padding: 100px; */
+}
+h2{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-header);
+    color: var(--color-white);
+    font-weight: var(--font-line-weight);
+    text-align: center;
+    padding: 4em;
+    
+}
+.ficheAnimal{
+    background-color: var(--color-white);
+    text-align: center;
+    border-radius:var( --border-radius-picture) ;
+}
+#fichesAnimaux{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.ficheAnimal__picture{
+display: flex;
+flex-direction: row;
+padding:50px;
+}
+
+
+.ficheAnimal__name{
+ font-family:var(--font-family-title);
+font-size:18px ;
+text-decoration: none;
+font-family: var(--font-family-sous-titre);
+font-weight:var( --font-line-weight);
+color:var(--color-black);
+}
+
+
+.name-latin{
+    color: var(--color-name-latin);
+    font-style: oblique;
+    padding:20px;
+}
