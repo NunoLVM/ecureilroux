@@ -7,17 +7,26 @@
   right: 0;
   bottom: 0;
   display: none;
-
 }
- 
+
+body.has-share {
+  overflow: hidden;
+}
+
+body.has-share .share-box-container {
+  display: block;
+}
 
 .share-box {
   background: var(--color-white);
   border-radius: var(--modal-border);
   max-width: var(--max-modal-width);
-  margin: 0 auto;
-  
-  
+
+  /* centrer verticalement et horizontalement avec un position: absolute */
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+  position: absolute;
 }
 
 .share-box .share-title {
@@ -26,13 +35,11 @@
   font-weight: bold;
   font-family: Arial, sans-serif;
   font-size: large;
-  display:flex;
-  align-items:center;
-  
+  display: flex;
+  align-items: center;
 }
 
 .share-buttons {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }

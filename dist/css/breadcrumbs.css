@@ -1,20 +1,21 @@
-  ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: transparent;
-    padding: 50px;
-    
-  }
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-    text-decoration:none;
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: transparent;
+  padding: 50px;
+}
+.breadcrumb ul li {
+  display: inline;
+  font-size: 18px;
+  color: red;
+}
+.breadcrumb ul li a {
+  color: red;
+  text-decoration: none;
+}
 
-  }
-  ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: rgb(3, 3, 3);
-    content: "\003E";
-  }
- 
- 
+.breadcrumb ul li + li:before {
+  padding: 8px;
+  color: rgb(3, 3, 3);
+  content: "\003E";
+}

@@ -1,18 +1,20 @@
 .overview-container {
-
-   
-
 }
 
 .overview {
-
-    padding: 50px ;
-    display: flex;
+  padding: var(--padding);
+  display: flex;
 }
 
 .title {
+  font-family: var(--font-family-title);
+  font-size: 40px;
+  font-weight: bold;
+}
 
-    font-family:var(--font-family-title);
-    font-size: 40px;
-    font-weight: bold;    
-    }
+.intro {
+  font-family: var(--font-family-title);
+  font-size: 22px;
+  padding: var(--padding);
+  line-height: 35px;
+}
