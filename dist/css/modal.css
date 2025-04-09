@@ -6,8 +6,10 @@
   left: 0;
   right: 0;
   bottom: 0;
- display: none;
+  display: none;
+
 }
+ 
 
 .share-box {
   background: var(--color-white);
@@ -33,5 +35,4 @@
     display: flex;
     justify-content: center;
 
-    
 }

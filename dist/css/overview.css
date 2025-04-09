@@ -1,0 +1,18 @@
+.overview-container {
+
+   
+
+}
+
+.overview {
+
+    padding: 50px ;
+    display: flex;
+}
+
+.title {
+
+    font-family:var(--font-family-title);
+    font-size: 40px;
+    font-weight: bold;    
+    }

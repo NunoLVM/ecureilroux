@@ -1,7 +1,20 @@
-
-
-.crumbs {
-    display: inline-flex;
-    font-size: initial;
+  ul.breadcrumb {
+    padding: 10px 16px;
     list-style: none;
-}
+    background-color: transparent;
+    padding: 50px;
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    text-decoration:none;
+
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(3, 3, 3);
+    content: "\003E";
+  }
+ 
+ 

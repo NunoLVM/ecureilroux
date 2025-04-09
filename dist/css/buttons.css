@@ -7,18 +7,14 @@
 
 }
 
-.button-transparent {
+.button-share {
   outline: none;
   border: none;
   margin: 20px;
   font-family: Arial, sans-serif;
   font-size: medium;
 
-
-  
-  
 }
-
 
 .button-icon-close {
   width: 50px;
@@ -31,6 +27,21 @@
   font-weight: bold;
   font-size: medium;
   
+}
+
+.partager {
+padding: 20px;
+padding-left: 60px;
+padding-right: 60px;
+background: transparent;
+outline: none;
+border-color: #999999;
+border-radius: 10px;
+margin-left: auto;
+margin-right: 0;
+font-family: Arial, sans-serif ;
+font-weight: bold;
+font-size: 18px;
 
 
 
