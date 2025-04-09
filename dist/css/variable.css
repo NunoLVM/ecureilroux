@@ -33,3 +33,11 @@
 :root {
     --modal-border: 10px;
 }
+
+:root {
+
+  --padding: 50px;
+
+}
+
+:root { min-width: none;}
