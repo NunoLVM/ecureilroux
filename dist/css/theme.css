@@ -8,3 +8,7 @@
 @import url("overview.css");
 @import url("ficheAnimal.css");
 @import url("layout.css");
+
+/* BODY * {
+  border: 1px solid red;
+} */

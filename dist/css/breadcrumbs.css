@@ -1,16 +1,18 @@
 .breadcrumb {
-  padding: 10px 16px;
   list-style: none;
   background-color: transparent;
   padding: 50px;
+  
+  
 }
 .breadcrumb ul li {
   display: inline;
   font-size: 18px;
-  color: red;
+  color: var(--color-black);
+
 }
 .breadcrumb ul li a {
-  color: red;
+  color: var(--color-black);
   text-decoration: none;
 }
 

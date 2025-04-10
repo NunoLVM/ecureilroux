@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  background-color: #eae8e8;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
-
   margin: 0 auto;
 }
 
