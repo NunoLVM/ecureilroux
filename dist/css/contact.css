@@ -49,6 +49,7 @@ font-size: var(--font-size-header);
     font-weight: var(--font-line-weight);
     text-align: center;
     padding-bottom: 3em;
+    font-weight: var(--font-weight-xl);
 }
 .box-fields{
     background-color:var(--color-white);
@@ -67,7 +68,45 @@ font-size: var(--font-size-header);
     padding-bottom: 1em;
 }
 .fields{
-   
-width: 100%;
+ width: 100%;
+}
+.fiche-contact h1{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-xl);
+    padding-left: 4em;
 
+}
+.fiche-contact p{
+    padding-left: 8em;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5em;
+}
+
+.form-group .form-control {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-form-control);
+    padding: var(--padding-form-control-vertical) var(--padding-form-control-horizontal);
+}
+
+
+.form-group.checkbox {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+.form-group.checkbox [type="checkbox"] {
+    width: min-content;
 }

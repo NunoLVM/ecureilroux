@@ -42,8 +42,22 @@
         </ul>
       </nav>
     </header>
+    <div class="container">
+      <div class="breadcrumb">
+        <ul>
+          <li><a href="acceuil.png" title="acceuil">Accueil</a></li>
+          <li>
+            <a href="Fiches animaux.png" title="Fiches animaux"
+              >Nous contacte</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </div>
 
-    <section>
+    <section class="fiche-contact">
+    <!--  -->
       <h1>Contacter notre équipe</h1>
       <div>
         <p>
@@ -59,50 +73,54 @@
           longtemps qu’un chien devant sa gamelle).
         </p>
       </div>
+      
+
       <fieldset class="box-fields" >
         
         <div class="fields">
           <h2>Formulaire de contact</h2>
         <form action="/traitement.php" method="POST">
-          <label for="nom_prenom">Votre nom et prénom :</label>
-          <!-- html br for doc -->
-          <br />
-          <input
-            type="text"
-            name="nom_prenom"
-            required
-          />
+          <div class="form-group">
+            <label for="nom_prenom">Votre nom et prénom :</label>
+            <input
+              class="form-control"
+              type="text"
+              name="nom_prenom"
+              required
+            />
+        </div>
           
-          <br />
+        <div class="form-group">
           <label for="email">Votre adresse e-mail :</label>
-          <br />
           <input
+            class="form-control"
             form="email"
             id="email"
             maxlength="20">
-          <br />
+        </div>
+        <div class="form-group">
           <label for="sujet">Sujet</label>
-          <br>
-          <select id="sujet" name="sujet" placeholder="Choississez">
+          <select id="sujet" name="sujet" placeholder="Choississez" class="form-control">
             <option value="Choississez"></option>
             <option value="...">...</option>
             <option value="...">...</option>
           </select>
-          <br>
+          </div>
+        <div class="form-group">
           <label for="message">Votre message :</label>
-          <br />
-          <textarea name="message" id="message" ></textarea>
-          <br />
+          <textarea name="message" id="message" class="form-control"></textarea>
+        </div>      
+        <div class="form-group checkbox">
+          <input type="checkbox" /> 
+          <span class="label-content">
+            En validant ce formulaire, je reconnais avoir pris connaissance de la
+            dispose sur mes données personnelles.
+        </span>
         </div>
-        <div >
-          <input type="checkbox" /> En validant ce formulaire, je reconnais
-          avoir pris connaissance de la
-          <a href="">Politique de confidentialité</a> et des droits dont je
-          dispose sur mes données personnelles.
-        
+        <div class="form-group">
           <button type="submit" id="button-contact"> Envoyer ma demande</button>
         </div>
-           </form>
+      </form>
       
       </fieldset>
     </section>
@@ -130,7 +148,7 @@
             </div>
 
             <div class="map-contact">
-              <img src="images/Map group.png" alt="map de l'adresse" />
+              <img src="images/Map group.png" alt="map de l'adresse" style="max-width: 100%;" />
             </div>
           </div>
         </div>

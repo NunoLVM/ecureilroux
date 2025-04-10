@@ -8,10 +8,20 @@
   --color-body:#eeeeee;
 }
 
-/* Border radius */
+/* Border */
 :root {
   --border-radius-sm: 30px;
   --border-radius-picture:10px;
+  --border-radius-form-control: 6px;
+
+  --border-color: #c0c0c0;
+}
+
+
+/*  Forms */
+:root {
+  --padding-form-control-horizontal: 15px;
+  --padding-form-control-vertical: 10px;
 }
 
 /*Box shadow*/
