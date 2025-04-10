@@ -12,7 +12,7 @@
 .intro {
   font-family: var(--font-family-title);
   font-size: 22px;
-  padding: var(--padding);
+  padding: 0 var(--padding) var(--padding) var(--padding);
   line-height: 35px;
 }
 
@@ -20,33 +20,58 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  font: var(--font-family-title);
+  font-family: var(--font-family-title);
   font-size: var(--font-family-sous-titre);
   padding: var(--padding);
   line-height: 25px;
   justify-content: space-between;
-  
+}
+.sidebar-title {
+  border-bottom: 1px solid var(--color-black);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .images-article-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   border-radius: 10px 10px 0px 0px;
   position: relative;
   margin-left: -40px;
-  margin-right: -40px;
-  margin-top: -40px;
+  margin-right: -41px;
+  margin-top: -41px;
   border-bottom: 1px rgb(220, 220, 220) solid;
-   
-  
+}
+
+.images-article-header picture:first-of-type img {
+  border-top-left-radius: 10px;
+}
+
+.images-article-header picture:last-of-type img {
+  border-top-right-radius: 10px;
+}
+
+/* .images-article-header picture:nth-of-type(2n) img {
+  opacity: 0;
+} */
+
+.images-article-header img {
+  max-width: 100%;
+}
+
+.images-article-header picture {
+  display: flex;
+  align-items: center;
 }
 
 .main-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 350px auto;
 }
 
 .right-content {
   background-color: #fff;
-  width: 100%;
   font-family: arial;
   font-size: 18px;
   color: black;
@@ -55,8 +80,6 @@
   padding: 5%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 50px;
-
-  
 }
 
 .iframe {
@@ -73,41 +96,26 @@
   font-weight: bold;
   padding-top: 8%;
   padding-bottom: 5%;
-
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid;
   height: 50px;
   text-align: left;
   padding: 15px;
   font-family: arial;
   font-size: 16px;
-  
-  
-
 }
 
 table {
-
   margin-top: 20px;
-  
-  width: 100%;
-  
 
-  
+  width: 100%;
 }
 
 th {
   font-weight: bold;
-  background-color: #F0F0F0;
-}
-
-.comments {
-
-  background-color: aquamarine;
-  text-align: center;
-
-  color: var(--color-black);
-
+  background-color: #f0f0f0;
 }

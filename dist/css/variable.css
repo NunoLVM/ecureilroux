@@ -4,24 +4,14 @@
   --color-blue: #2cbbc3;
   --color-white: #ffffff;
   --color-name-latin: #999999;
-  --color-black:#000000;
-  --color-body:#eeeeee;
+  --color-black: #000000;
+  --color-body: #eeeeee;
 }
 
 /* Border */
 :root {
   --border-radius-sm: 30px;
   --border-radius-picture:10px;
-  --border-radius-form-control: 6px;
-
-  --border-color: #c0c0c0;
-}
-
-
-/*  Forms */
-:root {
-  --padding-form-control-horizontal: 15px;
-  --padding-form-control-vertical: 10px;
 }
 
 /*Box shadow*/
@@ -30,26 +20,40 @@
 }
 
 /*Font*/
-:root{
-    --font-family-title: "Montserrat", sans-serif;
-    --font-size-header:24px;
-    --font-line-weight:600;
-    --font-size-title:30px;
-    --font-family-sous-titre:18px;
-    --font-weight-xl:800;
+:root {
+  --font-family-title: "Montserrat", sans-serif;
+  --font-size-header: 24px;
+  --font-line-weight: 600;
+  --font-size-title: 30px;
+  --font-family-sous-titre: 18px;
+  --font-weight-xl: 800;
 }
 :root {
   --max-modal-width: 1000px;
 }
 
 :root {
-    --modal-border: 10px;
+  --modal-border: 10px;
 }
 
 :root {
+  --spacing: 8px;
+
+  --spacing2: calc(var(--spacing) * 2);
+  --spacing3: calc(var(--spacing) * 3);
+  --spacing4: calc(var(--spacing) * 4);
+  --spacing5: calc(var(--spacing) * 5);
+  --spacing6: calc(var(--spacing) * 6);
+  --spacing7: calc(var(--spacing) * 7);
 
   --padding: 50px;
-
 }
 
-:root { min-width: none;}
+:root {
+  min-width: none;
+}
+
+/* Gestion des indexes */
+:root {
+  --z-index-modal: 9;
+}

@@ -1,7 +1,7 @@
 .share-box-container {
   /* height: 100vh; */
   background: rgba(0, 0, 0, 0.7);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -15,6 +15,7 @@ body.has-share {
 
 body.has-share .share-box-container {
   display: block;
+  z-index: var(--z-index-modal);
 }
 
 .share-box {
