@@ -5,6 +5,7 @@
   --color-white: #ffffff;
   --color-name-latin: #999999;
   --color-black:#000000;
+  --color-body:#eeeeee;
 }
 
 /* Border radius */
@@ -21,10 +22,11 @@
 /*Font*/
 :root{
     --font-family-title: "Montserrat", sans-serif;
-    --font-size-header:25px;
+    --font-size-header:24px;
     --font-line-weight:600;
     --font-size-title:30px;
     --font-family-sous-titre:18px;
+    --font-weight-xl:800;
 }
 :root {
   --max-modal-width: 1000px;
