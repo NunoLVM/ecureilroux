@@ -5,3 +5,15 @@
   padding-top: var(--padding);
   border-top: 1px solid #c0c0c0;
 }
+
+.number-comments {
+
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+.no-commments {
+
+   margin-bottom: 100px;
+}
