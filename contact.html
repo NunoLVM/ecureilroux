@@ -1,74 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="bibliotheque educative des animaux">
-    <meta name="author" content="Angel & Nuno">
-    <meta name="Classification" content="Educative">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="bibliotheque educative des animaux" />
+    <meta name="author" content="Angel & Nuno" />
+    <meta name="Classification" content="Educative" />
     <title>Biblio Animaux</title>
     <link rel="stylesheet" href="dist/css/theme.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
     <script src="script.js" defer></script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="site-header-logo">
-      <svg
-        width="76"
-        height="70"
-        viewBox="0 0 111 102"
-        fill=""
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M55.056 34.0923C59.9025 37.0133 61.806 38.7109 63.1447 43.4839C64.6136 44.3312 68.1578 42.9883 68.774 44.3812C68.8707 44.6014 68.8945 44.8911 68.8253 45.2688C68.5478 46.7834 67.6451 48.5914 66.9412 50.0419C66.6421 51.9507 62.3105 50.336 59.456 51.561C61.2977 51.7454 62.7041 51.9327 64.2683 52.7255C63.5004 54.0147 60.9517 52.1238 54.0373 53.9826C50.9693 54.8067 48.7138 56.2378 47.0016 57.6979C42.3724 61.6454 41.9088 66.5013 41.9088 66.5013C38.8363 77.9831 42.4542 95.8332 55.4288 101.34C50.8078 72.1963 64.8204 52.4336 94.328 54.9672C96.355 54.7881 97.0679 56.823 99.4305 56.1019C104.489 54.5589 110.521 49.0796 106.843 43.3623C101.577 39.0393 96.3818 31.4296 92.1195 26.0593L90.9623 23.3167C86.2922 15.9839 83.5159 15.7809 78.2363 8.7571C77.0807 6.2892 78.307 2.67319 80.9702 0C74.5432 1.08689 73.4315 2.57988 71.5965 4.1811C69.3641 5.83608 64.3405 6.41162 63.0926 8.33384C53.8922 15.5121 6.91995 9.9709 8.60093 38.7161C19.6177 29.3289 32.4361 27.032 45.9933 31.5363C47.614 27.453 51.0035 29.1192 52.2841 25.3001C54.8878 27.8852 55.719 30.5457 55.0553 34.0908M77.9766 60.8757C58.1888 71.2945 59.91 92.362 61.0611 101.999C69.3492 96.7066 81.3311 94.488 91.199 94.8747C84.9677 92.5031 78.3888 91.623 71.9462 92.1702C82.8767 82.521 96.4175 76.1609 110.999 73.9923C99.6649 71.9634 88.192 73.2138 77.8054 77.3307C81.2463 72.627 85.3293 68.3727 89.9741 64.7052C82.8782 67.2478 76.5352 71.255 71.278 76.3528C71.9328 70.7123 74.2262 65.3136 77.9758 60.8757H77.9766ZM3.2901 94.7553C12.0916 104.28 23.5757 100.129 28.7742 98.0249C24.5699 94.1753 21.5212 87.789 20.2435 82.1941C19.8648 86.0504 20.3693 89.8732 21.6484 93.4049C14.6165 88.7311 9.02137 82.0985 5.60731 74.2462C6.19071 80.9108 8.624 87.1582 12.489 92.362C9.34804 91.1438 6.35814 89.497 3.61157 87.4449C6.10216 91.0415 9.29372 93.9946 12.9325 96.1721C9.6881 96.6566 6.33135 96.1878 3.29085 94.7553H3.2901ZM42.5688 100.734C23.1062 73.7161 46.8044 52.9943 30.1866 43.6467C28.9543 43.2115 27.6491 42.7554 26.2553 42.2761C29.9016 41.1071 28.9528 36.4527 29.6768 33.6444C20.5665 33.0562 23.7484 38.1353 18.3981 41.34C14.324 41.4826 11.9182 42.4627 10.0497 45.1471C7.6038 48.6616 5.22483 54.5619 2.27139 59.0976C-0.0234925 62.6233 -1.65834 66.9686 2.88604 69.853C6.05602 71.8633 7.11863 70.4338 11.6675 67.8121C16.4098 65.0792 21.6388 64.1327 23.9351 71.4685C26.9496 93.9655 37.9292 101.23 42.5688 100.735V100.734Z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
-    <nav class="navigation">
-      <ul class="navigation-header">
-        <li>ACCUEIL</li>
-        <li>FICHES ANIMAUX</li>
-        <li>QUIZZ</li>
-        <li id="contact">
-          <a href="contact.html" title="Contact">CONTACT</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-    
-    
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-logo">
+        <svg
+          width="76"
+          height="70"
+          viewBox="0 0 111 102"
+          fill=""
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M55.056 34.0923C59.9025 37.0133 61.806 38.7109 63.1447 43.4839C64.6136 44.3312 68.1578 42.9883 68.774 44.3812C68.8707 44.6014 68.8945 44.8911 68.8253 45.2688C68.5478 46.7834 67.6451 48.5914 66.9412 50.0419C66.6421 51.9507 62.3105 50.336 59.456 51.561C61.2977 51.7454 62.7041 51.9327 64.2683 52.7255C63.5004 54.0147 60.9517 52.1238 54.0373 53.9826C50.9693 54.8067 48.7138 56.2378 47.0016 57.6979C42.3724 61.6454 41.9088 66.5013 41.9088 66.5013C38.8363 77.9831 42.4542 95.8332 55.4288 101.34C50.8078 72.1963 64.8204 52.4336 94.328 54.9672C96.355 54.7881 97.0679 56.823 99.4305 56.1019C104.489 54.5589 110.521 49.0796 106.843 43.3623C101.577 39.0393 96.3818 31.4296 92.1195 26.0593L90.9623 23.3167C86.2922 15.9839 83.5159 15.7809 78.2363 8.7571C77.0807 6.2892 78.307 2.67319 80.9702 0C74.5432 1.08689 73.4315 2.57988 71.5965 4.1811C69.3641 5.83608 64.3405 6.41162 63.0926 8.33384C53.8922 15.5121 6.91995 9.9709 8.60093 38.7161C19.6177 29.3289 32.4361 27.032 45.9933 31.5363C47.614 27.453 51.0035 29.1192 52.2841 25.3001C54.8878 27.8852 55.719 30.5457 55.0553 34.0908M77.9766 60.8757C58.1888 71.2945 59.91 92.362 61.0611 101.999C69.3492 96.7066 81.3311 94.488 91.199 94.8747C84.9677 92.5031 78.3888 91.623 71.9462 92.1702C82.8767 82.521 96.4175 76.1609 110.999 73.9923C99.6649 71.9634 88.192 73.2138 77.8054 77.3307C81.2463 72.627 85.3293 68.3727 89.9741 64.7052C82.8782 67.2478 76.5352 71.255 71.278 76.3528C71.9328 70.7123 74.2262 65.3136 77.9758 60.8757H77.9766ZM3.2901 94.7553C12.0916 104.28 23.5757 100.129 28.7742 98.0249C24.5699 94.1753 21.5212 87.789 20.2435 82.1941C19.8648 86.0504 20.3693 89.8732 21.6484 93.4049C14.6165 88.7311 9.02137 82.0985 5.60731 74.2462C6.19071 80.9108 8.624 87.1582 12.489 92.362C9.34804 91.1438 6.35814 89.497 3.61157 87.4449C6.10216 91.0415 9.29372 93.9946 12.9325 96.1721C9.6881 96.6566 6.33135 96.1878 3.29085 94.7553H3.2901ZM42.5688 100.734C23.1062 73.7161 46.8044 52.9943 30.1866 43.6467C28.9543 43.2115 27.6491 42.7554 26.2553 42.2761C29.9016 41.1071 28.9528 36.4527 29.6768 33.6444C20.5665 33.0562 23.7484 38.1353 18.3981 41.34C14.324 41.4826 11.9182 42.4627 10.0497 45.1471C7.6038 48.6616 5.22483 54.5619 2.27139 59.0976C-0.0234925 62.6233 -1.65834 66.9686 2.88604 69.853C6.05602 71.8633 7.11863 70.4338 11.6675 67.8121C16.4098 65.0792 21.6388 64.1327 23.9351 71.4685C26.9496 93.9655 37.9292 101.23 42.5688 100.735V100.734Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation-header">
+          <li>ACCUEIL</li>
+          <li>FICHES ANIMAUX</li>
+          <li>QUIZZ</li>
+          <li id="contact">
+            <a href="contact.html" title="Contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <section>
-        <h1>Nous Contacter</h1>
-            <p>Pour contacter notre équipe, merci de compléter le formulaire suivant :</p>
-
-            
+      <h1>Contacter notre équipe</h1>
+      <div>
+        <p>
+          Une question, une suggestion, un mot gentil ? On est toujours ravis
+          d’échanger avec vous ! Que ce soit pour parler animaux, poser une
+          question sur un article, proposer un sujet ou simplement nous dire
+          bonjour, n’hésitez pas à nous écrire.
+        </p>
+        <p>
+          Remplissez le formulaire ci-dessous ou envoyez-nous un message
+          directement à contact@nosanimaux.fr. On vous répond aussi vite que
+          possible (promis, on ne laisse pas vos messages sans réponse plus
+          longtemps qu’un chien devant sa gamelle).
+        </p>
+      </div>
+      <fieldset class="box-fields" >
+        
+        <div class="fields">
+          <h2>Formulaire de contact</h2>
         <form action="/traitement.php" method="POST">
-            <label for="nom_prenom">Votre nom et prénom :</label>
-            <!-- html br for doc -->
-            <br>
-            <input type="text" name="nom_prenom" style="width: 50%" height="50px" required>
-            <br>
-            <label for="tel">Votre numéro de téléphone: </label>
-            <br>
-            <input type="tel" id="tel" max="10" style="width: 50%" height="50px">
-            <br>
-            <label for="email">Votre adresse e-mail :</label>
-            <br>
-            <input form="email" id="email" maxlength="20" style="width: 50%" height="50px">
-            <br>
-            <label for="message">Votre message :</label>
-            <br>
-            <textarea name="message" id="message" rows="10" cols="85"></textarea>
-            <br>
-            <input type="checkbox"> En validant ce formulaire, je reconnais avoir pris connaissance de la <a href="">Politique de confidentialité</a> et des droits dont je dispose sur mes données personnelles.
-            <br>
-            <button type="submit" style="width: 200px;height: 35px;background-color: #d3d3d3;"><strong>Envoyer mon message</strong></button>     
-
-        </form>            
+          <label for="nom_prenom">Votre nom et prénom :</label>
+          <!-- html br for doc -->
+          <br />
+          <input
+            type="text"
+            name="nom_prenom"
+            required
+          />
+          
+          <br />
+          <label for="email">Votre adresse e-mail :</label>
+          <br />
+          <input
+            form="email"
+            id="email"
+            maxlength="20">
+          <br />
+          <label for="sujet">Sujet</label>
+          <br>
+          <select id="sujet" name="sujet" placeholder="Choississez">
+            <option value="Choississez"></option>
+            <option value="...">...</option>
+            <option value="...">...</option>
+          </select>
+          <br>
+          <label for="message">Votre message :</label>
+          <br />
+          <textarea name="message" id="message" ></textarea>
+          <br />
+        </div>
+        <div >
+          <input type="checkbox" /> En validant ce formulaire, je reconnais
+          avoir pris connaissance de la
+          <a href="">Politique de confidentialité</a> et des droits dont je
+          dispose sur mes données personnelles.
+        
+          <button type="submit" id="button-contact"> Envoyer ma demande</button>
+        </div>
+           </form>
+      
+      </fieldset>
     </section>
+    <section>
+      <div class="box-contact">
+        <h2>Nous situer</h2>
+        <div class="container container-fullwidth">
+        <div class="box-adress-contact"><!--  -->
+          
+            <div class="adress-contact">
+              <div>
+                <h3>NosAnimaux.fr</h3>
+                <p>
+                  127 avenue Georges Pompidou 75100 Paris
+                  <span id="tel-box-contact">Téléphone</span>: 01 75 75 05 75
+                </p>
+              </div>
+              <div>
+                <h3>Horaires d’ouverture</h3>
+                <p>
+                  Lundi : 09h - 19h Mardi : 09h - 19h Mercredi : 09h - 19h Jeudi
+                  : 09h - 19h Vendredi : 09h - 19h Samedi & Dimanche : fermé
+                </p>
+              </div>
+            </div>
 
-</body>
+            <div class="map-contact">
+              <img src="images/Map group.png" alt="map de l'adresse" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

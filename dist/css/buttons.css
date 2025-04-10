@@ -3,8 +3,6 @@
   padding: 15px;
   border-radius: var(--border-radius-sm);
   justify-content: center;
-  
-
 }
 
 .button-share {
@@ -13,7 +11,6 @@
   margin: 20px;
   font-family: Arial, sans-serif;
   font-size: medium;
-
 }
 
 .button-icon-close {
@@ -26,7 +23,6 @@
   margin-right: 0;
   font-weight: bold;
   font-size: medium;
-  
 }
 
 .partager {
@@ -42,7 +38,12 @@ margin-right: 0;
 font-family: Arial, sans-serif ;
 font-weight: bold;
 font-size: 18px;
-
-
-
+}
+#button-contact{
+  background-color: var(--color-orange);
+  border-radius: var(--border-radius-picture);
+  color:var(--color-white);
+  width: 15em;
+  height: 3em;
+  
 }
