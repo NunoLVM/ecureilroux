@@ -39,6 +39,7 @@ font-family: Arial, sans-serif ;
 font-weight: bold;
 font-size: 18px;
 }
+
 #button-contact{
   background-color: var(--color-orange);
   border-radius: var(--border-radius-picture);

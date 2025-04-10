@@ -12,6 +12,9 @@
 :root {
   --border-radius-sm: 30px;
   --border-radius-picture:10px;
+  --border-radius-form-control:6px;
+
+  --border-color:#ededed;
 }
 
 /*Box shadow*/
@@ -56,4 +59,10 @@
 /* Gestion des indexes */
 :root {
   --z-index-modal: 9;
+}
+
+:root{
+  
+  --padding-form-control-vertical:10px;
+  --padding-form-control-horizontal:15px;
 }

@@ -5,16 +5,32 @@ body{
 .box-contact{
 background-color: var(--color-blue);
 font-size: var(--font-size-header);
+padding-top: 50px;
+padding-bottom:50px;
 }
 
 .adress-contact{
     background-color: var(--color-white);
-    font-size: 16px;       
+    font-size: 16px;  
+    border-radius: 10px 0px 0px 10px;
+    padding: var( --padding-form-control-vertical ) var(--padding-form-control-horizontal); 
+    display :flex;
+    flex-direction: column;
+    
+}
+.adress-contact__contact{
+background-color: black;
+}
+.adress-contact__tel{
+display: flex;
+flex-direction: column;
+
 }
 
 .adress-contact h3{
     font-weight:var(--font-weight-xl);
     font-family: var(--font-family-title);
+  
 }
 
 #tel-box-contact{
@@ -25,6 +41,7 @@ font-size: var(--font-size-header);
 .box-adress-contact{
     display: grid;
     grid-template-columns: 1fr 1fr;   
+    width: 100%;
 }
 
 .fields input{
@@ -50,6 +67,7 @@ font-size: var(--font-size-header);
     text-align: center;
     padding-bottom: 3em;
     font-weight: var(--font-weight-xl);
+    
 }
 .box-fields{
     background-color:var(--color-white);
@@ -62,7 +80,7 @@ font-size: var(--font-size-header);
 .box-fields h2{
     font-family: var(--font-family-title);
     font-size: var(--font-size-header);
-    font-weight: var(--font-line-weight);
+    font-weight: var(--font-weight-xl);
     padding-top: 1em;
     padding: auto;
     padding-bottom: 1em;
@@ -74,13 +92,20 @@ font-size: var(--font-size-header);
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
     font-weight: var(--font-weight-xl);
-    padding-left: 4em;
-
+    padding-left: 4em;   
+    @media (width< 600px){
+        padding-left: 60px;
+    }
 }
+
 .fiche-contact p{
     padding-left: 8em;
     margin-top:2em;
     margin-bottom: 2em;
+    
+    @media (width< 600px){
+        padding-left: 60px;
+    }
 }
 
 
