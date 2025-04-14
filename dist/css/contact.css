@@ -1,137 +1,159 @@
-body{
-    background-color: var(--color-body);
+body {
+  background-color: var(--color-body);
 }
 
-.box-contact{
-background-color: var(--color-blue);
-font-size: var(--font-size-header);
-padding-top: 50px;
-padding-bottom:50px;
+.box-contact {
+  background-color: var(--color-blue);
+  font-size: var(--font-size-header);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
-.adress-contact{
-    background-color: var(--color-white);
-    font-size: 16px;  
-    border-radius: 10px 0px 0px 10px;
-    padding: var( --padding-form-control-vertical ) var(--padding-form-control-horizontal); 
-    display :flex;
-    flex-direction: column;
-    
+.adress-contact {
+    font-family: var( --font-family-title);
+  background-color: var(--color-white);
+  font-size: 16px;
+  border-radius: 10px 0px 0px 10px;
+  padding: var(--padding-form-control-vertical)
+    var(--padding-form-control-horizontal);
+  display: flex;
+  flex-direction: column;
 }
-.adress-contact__contact{
-background-color: black;
+.adress-contact__adress {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+ 
+  
 }
-.adress-contact__tel{
-display: flex;
-flex-direction: column;
+.adress-contact__adress span {
+  padding:5px;
+}
+.adress-contact__tel span {
+  padding: 5px;
+}
 
-}
-
-.adress-contact h3{
-    font-weight:var(--font-weight-xl);
-    font-family: var(--font-family-title);
+.adress-contact__tel {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 50%;
   
 }
 
-#tel-box-contact{
-    font-weight:var(--font-line-weight);
-    font-family: var(--font-family-title);
-    font-size: 16px;
-}
-.box-adress-contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;   
-    width: 100%;
+.adress-contact h3 {
+  font-weight: var(--font-weight-xl);
+  font-family: var(--font-family-title);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.fields input{
-    width: 100%;
-    height: 2.5em;
-    border-radius: 6px;
+#tel-box-contact {
+  font-weight: var(--font-line-weight);
+  font-family: var(--font-family-title);
+  font-size: 16px;
 }
-.fields #sujet{  
-    width: 100%;
-    height: 2.5em;
-    border-radius: 6px;
-}
-.fields #message{
-    width: 100%;
-    height:10em;
-    border-radius: 6px;
-}
-.box-contact h2{
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-header);
-    color: var(--color-white);
-    font-weight: var(--font-line-weight);
-    text-align: center;
-    padding-bottom: 3em;
-    font-weight: var(--font-weight-xl);
-    
-}
-.box-fields{
-    background-color:var(--color-white);
-    width: 80%;
-    margin: auto;
-    padding:2em
-   
-    
-}
-.box-fields h2{
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-header);
-    font-weight: var(--font-weight-xl);
-    padding-top: 1em;
-    padding: auto;
-    padding-bottom: 1em;
-}
-.fields{
- width: 100%;
-}
-.fiche-contact h1{
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-title);
-    font-weight: var(--font-weight-xl);
-    padding-left: 4em;   
-    @media (width< 600px){
-        padding-left: 60px;
-    }
+.box-adress-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
-.fiche-contact p{
-    padding-left: 8em;
-    margin-top:2em;
-    margin-bottom: 2em;
-    
-    @media (width< 600px){
-        padding-left: 60px;
-    }
+.fields input {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 6px;
+}
+.fields #sujet {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 6px;
+}
+.fields #message {
+  width: 100%;
+  height: 10em;
+  border-radius: 6px;
+}
+.box-contact h2 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-header);
+  color: var(--color-white);
+  font-weight: var(--font-line-weight);
+  text-align: center;
+  padding-bottom: 3em;
+  font-weight: var(--font-weight-xl);
+}
+.box-fields {
+  background-color: var(--color-white);
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+  border-radius: var(--border-radius-picture);
+}
+.box-fields h2 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-header);
+  font-weight: var(--font-weight-xl);
+  padding-top: 1em;
+  padding: auto;
+  padding-bottom: 1em;
+}
+.fields {
+  width: 100%;
+}
+.fiche-contact h1 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-xl);
+  padding-left: 4em;
+  @media (width< 600px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
+.fiche-contact p {
+  padding-left: 8em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  @media (width< 600px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 
 .form-group {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .form-group label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: .5em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 .form-group .form-control {
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius-form-control);
-    padding: var(--padding-form-control-vertical) var(--padding-form-control-horizontal);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-form-control);
+  padding: var(--padding-form-control-vertical)
+    var(--padding-form-control-horizontal);
 }
-
 
 .form-group.checkbox {
-   display: flex;
-   align-items: center;
-   gap: 10px;
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .form-group.checkbox [type="checkbox"] {
-    width: min-content;
+  width: min-content;
+}
+.map-contact img{
+    height:100%;
+}
+
+#button-contact{
+    border-color: var(--color-orange);
 }
