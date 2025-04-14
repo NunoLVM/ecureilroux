@@ -119,3 +119,66 @@ th {
   font-weight: bold;
   background-color: #f0f0f0;
 }
+
+@media (max-width: 768px) {
+  .overview {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .top-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .images-article-header {
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+  .images-article-header picture {
+    margin-bottom: 10px;
+  }
+
+  .images-article-header picture:nth-of-type(2) {
+    display: none;
+  }
+
+  .main-container {
+    display: block;
+  }
+
+  .right-content {
+    padding: 10%;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .title-article {
+    font-size: 20px;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 14px;
+    padding: 10px;
+    height: auto;
+  }
+}

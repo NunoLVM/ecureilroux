@@ -1,6 +1,5 @@
 .comments {
   color: var(--color-black);
-
   margin-top: var(--padding);
   padding-top: var(--padding);
   border-top: 1px solid #c0c0c0;
@@ -8,12 +7,160 @@
 
 .number-comments {
 
-    font-family: Arial, sans-serif;
-    font-size: 30px;
+  text-align: left;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
     
 }
 
-.no-commments {
 
-   margin-bottom: 100px;
+.no-comments {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4D709C;
+  background-color: #E0F7FA; 
+  padding: 20px;              
+  border-radius: 10px;       
+  margin: 20px auto;          
+  max-width: 600px;          
+  font-size: 1em;           
+  text-align: center;         
+  
+}
+
+.comments-form {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: white;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+
+}
+
+.add-comment-title {
+
+  text-align: center;
+  font-size: var(--font-size-title);
+  font-family: var(--font-family-title);
+  padding: 30px;
+}
+
+.form-group {
+
+ margin-bottom: 1rem;
+  
+}
+
+
+.form-group textarea {
+
+  min-height: 150px;
+}
+
+
+.form-group__label label,
+.form-group > label {
+  display: block;
+  font-weight: bold;
+  color: #060606;
+  margin-bottom: 0.5rem;
+}
+
+.form-group__control input,
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  
+}
+
+.form-group__control input:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4D709C;
+  box-shadow: 0 0 5px rgba(77,112,156, 0.3);
+}
+
+.comments-form input{
+  width: 100%;
+  height: 2.5em;
+  border-radius: 6px;
+
+}
+
+.add-button-comments {
+
+text-align: center;
+
+}
+
+
+.checkbox label {
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  gap: 12px;     
+  align-items: center;                
+}
+
+.checkbox label input {
+ 
+  margin:0;
+  transform: scale(2);
+}
+
+.checkbox-text {
+
+  white-space: normal;
+  line-height: 1.4;
+}
+
+.form-group input,
+.form-group textarea {
+  font-weight: normal !important;
+}
+
+@media (max-width: 768px) {
+  
+  .comments {
+    margin-top: 20px;   
+    padding-top: 20px;
+  }
+
+
+  .number-comments {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .no-comments {
+    max-width: 100%;    
+    padding: 15px;
+    font-size: 0.95em;
+  }
+
+  
+  .comments-form {
+    padding: 20px;
+  }
+
+  
+  .checkbox label input {
+    transform: scale(1.5);
+  }
+
+  
+  .add-comment-title {
+    padding: 15px;
+    font-size: calc(var(--font-size-title) * 0.9);
+  }
 }

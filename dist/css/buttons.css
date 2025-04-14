@@ -48,3 +48,48 @@ font-size: 18px;
   height: 3em;
   
 }
+
+.add-button-comments button {
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+ 
+  .button {
+    padding: 10px;
+  }
+
+  
+  .button-share {
+    font-size: 0.9em;   
+    margin: 15px;
+  }
+
+
+  .button-icon-close {
+    width: 40px;
+    font-size: 0.9em;
+  }
+
+  
+  .partager {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
+
+
+  #button-contact {
+    width: 90%;  
+    height: auto;  
+    padding: 0.5em; 
+  }
+  
+  
+  .add-button-comments button {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

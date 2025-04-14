@@ -50,3 +50,41 @@
   font-style: oblique;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .boxAnimal {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .boxAnimal h2 {
+    font-size: 1.8rem;
+    padding-bottom: 2em;
+  }
+
+  #fichesAnimaux {
+    grid-template-columns: 1fr !important;
+  }
+
+  .ficheAnimal__picture {
+    padding: 5px;
+  }
+
+  .ficheAnimal {
+    width: 100%;
+  }
+
+  .ficheAnimal__name {
+    font-size: 1.2rem;
+  }
+
+  .name-latin {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .ficheAnimal__picture img {
+    width: 100%;
+    height: auto;
+  }
+}
