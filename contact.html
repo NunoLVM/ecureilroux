@@ -56,76 +56,79 @@
           
         </ul>
       </div>
-    </div>
 
-    <section class="fiche-contact">
-    <!--  -->
-      <h1>Contacter notre équipe</h1>
-      <div>
-        <p>
-          Une question, une suggestion, un mot gentil ? On est toujours ravis
-          d’échanger avec vous ! Que ce soit pour parler animaux, poser une
-          question sur un article, proposer un sujet ou simplement nous dire
-          bonjour, n’hésitez pas à nous écrire.
-        </p>
-        <p>
-          Remplissez le formulaire ci-dessous ou envoyez-nous un message
-          directement à contact@nosanimaux.fr. On vous répond aussi vite que
-          possible (promis, on ne laisse pas vos messages sans réponse plus
-          longtemps qu’un chien devant sa gamelle).
-        </p>
-      </div>
-      
-
-      <fieldset class="box-fields" >
+      <section class="fiche-contact">
+        <div class="overview">
+          <h1 class="top-title">Contacter notre équipe</h1>
+        </div>
+        <div class="intro">
+          <p>
+            Une question, une suggestion, un mot gentil ? On est toujours ravis
+            d’échanger avec vous ! Que ce soit pour parler animaux, poser une
+            question sur un article, proposer un sujet ou simplement nous dire
+            bonjour, n’hésitez pas à nous écrire.
+          </p>
+          <p>
+            Remplissez le formulaire ci-dessous ou envoyez-nous un message
+            directement à contact@nosanimaux.fr. On vous répond aussi vite que
+            possible (promis, on ne laisse pas vos messages sans réponse plus
+            longtemps qu’un chien devant sa gamelle).
+          </p>
+        </div>
         
-        <div class="fields">
-          <h2>Formulaire de contact</h2>
-        <form action="/traitement.php" method="POST">
+
+        <fieldset class="box-fields" >
+          
+          <div class="fields">
+            <h2>Formulaire de contact</h2>
+          <form action="/traitement.php" method="POST">
+            <div class="form-group">
+              <label for="nom_prenom">Votre nom et prénom :</label>
+              <input
+                class="form-control"
+                type="text"
+                name="nom_prenom"
+                required
+              />
+          </div>
+            
           <div class="form-group">
-            <label for="nom_prenom">Votre nom et prénom :</label>
+            <label for="email">Votre adresse e-mail :</label>
             <input
               class="form-control"
-              type="text"
-              name="nom_prenom"
-              required
-            />
-        </div>
-          
-        <div class="form-group">
-          <label for="email">Votre adresse e-mail :</label>
-          <input
-            class="form-control"
-            form="email"
-            id="email"
-            maxlength="20">
-        </div>
-        <div class="form-group">
-          <label for="sujet">Sujet</label>
-          <select id="sujet" name="sujet" placeholder="Choississez" class="form-control">
-            <option value="Choississez"></option>
-            <option value="...">...</option>
-            <option value="...">...</option>
-          </select>
+              form="email"
+              id="email"
+              maxlength="20">
           </div>
-        <div class="form-group">
-          <label for="message">Votre message :</label>
-          <textarea name="message" id="message" class="form-control"></textarea>
-        </div>      
-        <div class="form-group checkbox">
-          <input type="checkbox" /> 
-          <span class="label-content">
-            En validant ce formulaire, je reconnais avoir pris connaissance de la
-            dispose sur mes données personnelles.
-        </span>
-        </div>
-        <div class="form-group">
-          <button type="submit" id="button-contact"> Envoyer ma demande</button>
-        </div>
-      </form>
-      
-      </fieldset>
-    </section>
+          <div class="form-group">
+            <label for="sujet">Sujet</label>
+            <select id="sujet" name="sujet" placeholder="Choississez" class="form-control">
+              <option value="Choississez"></option>
+              <option value="...">...</option>
+              <option value="...">...</option>
+            </select>
+            </div>
+          <div class="form-group">
+            <label for="message">Votre message :</label>
+            <textarea name="message" id="message" class="form-control"></textarea>
+          </div>      
+          <div class="form-group checkbox">
+            <input type="checkbox" /> 
+            <span class="label-content">
+              En validant ce formulaire, je reconnais avoir pris connaissance de la
+              dispose sur mes données personnelles.
+          </span>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="button-contact"> Envoyer ma demande</button>
+          </div>
+        </form>
+        
+        </fieldset>
+      </section>
+    </div>
+
+
     <section>
       <div class="box-contact">
         <h2>Nous situer</h2>
@@ -143,16 +146,17 @@
                 
               </div>
               <div class="adress-contact__tel">
-                <h3>Horaires d’ouverture</h3>
-                
-                  <span>Lundi : 09h - 19h  </span>
-                  <span>Mardi : 09h - 19h</span>
-                  <span>Mercredi : 09h - 19h </span> 
-                  <span>Jeudi : 09h - 19h </span>
-                  <span>Vendredi : 09h - 19h</span>
-                  <span>Samedi & Dimanche : fermé</span>
-                    
-               
+
+                <dl>
+                  <dt>Horaires d’ouverture</dt>
+                  <dl>Lundi : 09h - 19h  </dl>
+                  <dl>Mardi : 09h - 19h</dl>
+                  <dl>Mercredi : 09h - 19h </dl> 
+                  <dl>Jeudi : 09h - 19h </dl>
+                  <dl>Vendredi : 09h - 19h</dl>
+                  <dl>Samedi & Dimanche : fermé</dl>
+                </dl>
+         
               </div>
             </div>
 

@@ -43,6 +43,7 @@ body.has-share .share-box-container {
 .share-buttons {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 

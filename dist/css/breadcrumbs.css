@@ -1,9 +1,7 @@
 .breadcrumb {
   list-style: none;
   background-color: transparent;
-  padding: 50px;
-  
-  
+  padding: 50px 0;  
 }
 .breadcrumb ul li {
   display: inline;
@@ -25,7 +23,7 @@
 
 @media (max-width: 768px) {
   .breadcrumb {
-    padding: 20px;  
+    padding: 20px 0;  
   }
 
   .breadcrumb ul li {

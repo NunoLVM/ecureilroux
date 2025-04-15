@@ -1,5 +1,5 @@
 .overview {
-  padding: var(--padding);
+  padding: var(--padding) 0;
   display: flex;
 }
 
@@ -12,7 +12,7 @@
 .intro {
   font-family: var(--font-family-title);
   font-size: 22px;
-  padding: 0 var(--padding) var(--padding) var(--padding);
+  padding: 0 0 var(--padding) 0;
   line-height: 35px;
 }
 
@@ -123,7 +123,7 @@ th {
 @media (max-width: 768px) {
   .overview {
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .top-title {
@@ -134,7 +134,7 @@ th {
   .intro {
     font-size: 18px;
     line-height: 28px;
-    padding: 0 20px;
+    padding: 20px;
     text-align: center;
   }
 
