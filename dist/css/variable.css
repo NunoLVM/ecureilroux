@@ -11,10 +11,10 @@
 /* Border */
 :root {
   --border-radius-sm: 30px;
-  --border-radius-picture:10px;
-  --border-radius-form-control:6px;
+  --border-radius-picture: 10px;
+  --border-radius-form-control: 6px;
 
-  --border-color:#ededed;
+  --border-color: #ededed;
 }
 
 /*Box shadow*/
@@ -32,7 +32,7 @@
   --font-weight-xl: 800;
 }
 :root {
-  --max-modal-width: 1000px;
+  --max-modal-width: 800px;
 }
 
 :root {
@@ -61,8 +61,7 @@
   --z-index-modal: 9;
 }
 
-:root{
-  
-  --padding-form-control-vertical:10px;
-  --padding-form-control-horizontal:15px;
+:root {
+  --padding-form-control-vertical: 10px;
+  --padding-form-control-horizontal: 15px;
 }

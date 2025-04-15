@@ -12,12 +12,11 @@ body {
 }
 
 .adress-contact {
-    font-family: var( --font-family-title);
+  font-family: var(--font-family-title);
   background-color: var(--color-white);
   font-size: 16px;
   border-radius: 10px 0px 0px 10px;
-  padding: var(--padding-form-control-vertical)
-    var(--padding-form-control-horizontal);
+  padding: var(--padding-form-control-vertical) var(--padding-form-control-horizontal);
   display: flex;
   flex-direction: column;
 }
@@ -25,11 +24,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 5px;
- 
-  
 }
 .adress-contact__adress span {
-  padding:5px;
+  padding: 5px;
 }
 .adress-contact__tel span {
   padding: 5px;
@@ -40,7 +37,6 @@ body {
   flex-direction: column;
   padding: 15px;
   height: 50%;
-  
 }
 
 .adress-contact h3 {
@@ -138,8 +134,7 @@ body {
 .form-group .form-control {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-form-control);
-  padding: var(--padding-form-control-vertical)
-    var(--padding-form-control-horizontal);
+  padding: var(--padding-form-control-vertical) var(--padding-form-control-horizontal);
 }
 
 .form-group.checkbox {
@@ -150,10 +145,6 @@ body {
 .form-group.checkbox [type="checkbox"] {
   width: min-content;
 }
-.map-contact img{
-    height:100%;
-}
-
-#button-contact{
-    border-color: var(--color-orange);
+.map-contact img {
+  height: 100%;
 }

@@ -16,12 +16,4 @@ body {
 
 .container-fullwidth {
   max-width: 100%;
-  
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 }

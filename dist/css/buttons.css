@@ -1,95 +1,56 @@
-.button {
-  background: rgb(234, 228, 228);
-  padding: 15px;
-  border-radius: var(--border-radius-sm);
-  justify-content: center;
+:root {
+  --btn-padding-vertical: 8px;
+  --btn-padding-horizontal: 15px;
+
+  --btn-background-color: var(--color-orange);
+  --btn-text-color: #fff;
+  --btn-border-color: transparent;
+  --btn-border-radius: var(--border-radius-sm);
+  --btn-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+
+  --btn-share-background-color: #fff;
+  --btn-share-color: #333;
+  --btn-share-border-color: #333;
+  --btn-share-border-radius: 6px;
+  --btn-share-box-shadow: none;
 }
 
-.button-share {
+.btn {
+  padding: var(--btn-padding-vertical) var(--btn-padding-horizontal);
   outline: none;
-  border: none;
-  margin: 20px;
-  font-family: Arial, sans-serif;
-  font-size: medium;
+  border: 1px solid var(--btn-border-color);
+  box-shadow: none;
+  background: var(--btn-background-color);
+  color: var(--btn-text-color);
+  font-family: var(--font-family-title);
+  border-radius: var(--btn-border-radius);
+  box-shadow: var(--btn-box-shadow);
+  transition: linear transform 0.2s;
+  text-decoration: none;
 }
 
-.button-icon-close {
-  width: 50px;
-  background: transparent;
-  outline: none;
-  border: none;
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
-  font-weight: bold;
-  font-size: medium;
+.btn:hover {
+  transform: scale(1.1);
 }
 
-.partager {
-padding: 20px;
-padding-left: 60px;
-padding-right: 60px;
-background: transparent;
-outline: none;
-border-color: #999999;
-border-radius: var(--border-radius-picture);
-margin-left: auto;
-margin-right: 0;
-font-family: Arial, sans-serif ;
-font-weight: bold;
-font-size: 18px;
+.btn.btn-share {
+  --btn-background-color: var(--btn-share-background-color);
+  --btn-text-color: var(--btn-share-color);
+  --btn-border-color: var(--btn-share-border-color);
+  --btn-border-radius: var(--btn-share-border-radius);
+  --btn-box-shadow: var(--btn-share-box-shadow);
 }
 
-#button-contact{
-  background-color: var(--color-orange);
-  border-radius: var(--border-radius-picture);
-  color:var(--color-white);
-  width: 15em;
-  height: 3em;
-  
+.btn.btn-green {
+  --btn-background-color: green;
 }
 
-.add-button-comments button {
-  border: none;
-  outline: none;
+.btn.btn-facebook {
+  --btn-background-color: #1877f2;
 }
 
-@media (max-width: 768px) {
- 
-  .button {
-    padding: 10px;
-  }
-
-  
-  .button-share {
-    font-size: 0.9em;   
-    margin: 15px;
-  }
-
-
-  .button-icon-close {
-    width: 40px;
-    font-size: 0.9em;
-  }
-
-  
-  .partager {
-    padding: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
-  }
-
-
-  #button-contact {
-    width: 90%;  
-    height: auto;  
-    padding: 0.5em; 
-  }
-  
-  
-  .add-button-comments button {
-    width: 100%;
-    margin: 0 auto;
-  }
+.btn-close {
+  --btn-background-color: #fff;
+  --btn-box-shadow: none;
+  --btn-text-color: #333;
 }
