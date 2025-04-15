@@ -30,6 +30,13 @@
   --font-size-title: 30px;
   --font-family-sous-titre: 18px;
   --font-weight-xl: 800;
+
+  --font-size-base:16px;
+  --font-size-sm: 14px;
+
+  @media (max-width: 480px) {
+    --font-size-base: var(--font-size-sm);
+  }
 }
 :root {
   --max-modal-width: 800px;

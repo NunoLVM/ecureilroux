@@ -9,16 +9,20 @@ body {
   padding-bottom: 50px;
   margin-top: 30px;
   padding-bottom: 20px;
+
 }
 
 .adress-contact {
   font-family: var(--font-family-title);
   background-color: var(--color-white);
-  font-size: 16px;
+  font-size: var(--font-size-base);
   border-radius: 10px 0px 0px 10px;
   padding: var(--padding-form-control-vertical) var(--padding-form-control-horizontal);
-  display: flex;
-  flex-direction: column;
+  @media(max-width: 480px){
+    border-radius: 10px 10px 0 0;
+
+  }
+
 }
 .adress-contact__adress {
   display: flex;
@@ -28,8 +32,12 @@ body {
 .adress-contact__adress span {
   padding: 5px;
 }
-.adress-contact__tel span {
-  padding: 5px;
+.adress-contact__tel dl dt {
+  font-weight: bold;
+}
+
+.adress-contact__tel dl {
+  margin-top: 5px;
 }
 
 .adress-contact__tel {
@@ -55,8 +63,21 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+
+  @media (width<480px) {
+    grid-template-columns: 1fr;
+  }
 }
 
+.map-contact img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 10px 10px 0;
+
+  @media (width<480px) {
+    border-radius: 0 0 10px 10px;
+  }
+}
 .fields input {
   width: 100%;
   height: 2.5em;
@@ -81,10 +102,12 @@ body {
   padding-bottom: 3em;
   font-weight: var(--font-weight-xl);
 }
+
+
 .box-fields {
   background-color: var(--color-white);
-  width: 80%;
   margin: auto;
+  max-width: 800px;
   padding: 2em;
   border-radius: var(--border-radius-picture);
 }
@@ -99,27 +122,8 @@ body {
 .fields {
   width: 100%;
 }
-.fiche-contact h1 {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-title);
-  font-weight: var(--font-weight-xl);
-  padding-left: 4em;
-  @media (width< 600px) {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
 
-.fiche-contact p {
-  padding-left: 8em;
-  margin-top: 2em;
-  margin-bottom: 2em;
 
-  @media (width< 600px) {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
 
 .form-group {
   margin-bottom: 1em;
@@ -145,6 +149,7 @@ body {
 .form-group.checkbox [type="checkbox"] {
   width: min-content;
 }
-.map-contact img {
-  height: 100%;
+
+#button-contact {
+  border-color: var(--color-orange);
 }
