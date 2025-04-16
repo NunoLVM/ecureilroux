@@ -22,6 +22,7 @@ body.has-share .share-box-container {
   background: var(--color-white);
   border-radius: var(--modal-border);
   max-width: var(--max-modal-width);
+  width: 80%;
 
   /* centrer verticalement et horizontalement avec un position: absolute */
   top: 50%;
@@ -38,12 +39,19 @@ body.has-share .share-box-container {
   font-size: large;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .share-buttons {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  gap: 10px;
+
+  @media (width< 600px) {
+    flex-direction: column;
+  }
 }
 
-
+.share-content {
+  padding: 20px;
+}

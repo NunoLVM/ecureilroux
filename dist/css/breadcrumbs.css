@@ -1,13 +1,12 @@
 .breadcrumb {
   list-style: none;
   background-color: transparent;
-  padding: 50px 0;  
+  padding: 50px 0;
+  font-family: var(--font-family-title);
 }
 .breadcrumb ul li {
   display: inline;
-  font-size: 18px;
   color: var(--color-black);
-
 }
 .breadcrumb ul li a {
   color: var(--color-black);
@@ -20,17 +19,22 @@
   content: "\003E";
 }
 
-
 @media (max-width: 768px) {
   .breadcrumb {
-    padding: 20px 0;  
+    padding: 20px;
+    padding: 20px 0;
   }
 
   .breadcrumb ul li {
-    font-size: 16px;  
+    display: none;
+  }
+
+  .breadcrumb ul li:last-of-type {
+    display: block;
   }
 
   .breadcrumb ul li + li:before {
-    padding: 4px;  
+    padding: 4px;
+    content: "\2190";
   }
 }
