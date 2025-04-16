@@ -22,10 +22,12 @@
 
   }
   @media (width< 760px){
-    font-size: 16px;
+    
     overflow:hidden;
   }
 }
+
+
 
 /* tous les éléments sauf le premier */
 .navigation li:not(:first-of-type) {
@@ -69,7 +71,7 @@
     margin-left:auto ;
     margin-right: 20px;
   }
-}
+  }
 
 .site-header-logo {
   color: var(--color-white);

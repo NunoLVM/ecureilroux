@@ -24,13 +24,11 @@ body {
   }
 
 }
-.adress-contact__adress {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
+.adress-contact__adress dl dt {
+  font-weight: bold;
 }
-.adress-contact__adress span {
-  padding: 5px;
+.adress-contact__adress dl {
+  margin-top: 5px;
 }
 .adress-contact__tel dl dt {
   font-weight: bold;
@@ -43,16 +41,11 @@ body {
 .adress-contact__tel {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding-top: 15px;
   height: 50%;
 }
 
-.adress-contact h3 {
-  font-weight: var(--font-weight-xl);
-  font-family: var(--font-family-title);
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 
 #tel-box-contact {
   font-weight: var(--font-line-weight);

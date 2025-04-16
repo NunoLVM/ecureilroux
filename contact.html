@@ -13,6 +13,8 @@
       rel="stylesheet" />
     <script src="script.js" defer></script>
   </head>
+ 
+ 
   <body>
     <header class="site-header">
       <div class="site-header-logo">
@@ -32,17 +34,20 @@
         </svg>
       </div>
       <nav class="navigation">
+       
         <ul class="navigation-header">
-          <li>ACCUEIL</li>
-          <li>FICHES ANIMAUX</li>
-          <li>QUIZZ</li>
-          <li id="menu">MENU</li>
+          <li><a href="index.html">ACCUEIL</a></li>
+          <li><a href="fiches-animaux.html">FICHES ANIMAUX</a></li>
+          <li><a href="quizz.html">QUIZZ</a></li>
+          
           <li id="contact">
             <a href="contact.html" title="Contact">CONTACT</a>
           </li>
-          
-        </ul>
+           </ul>
+           <label id="menu">MENU</label>
+         
       </nav>
+    
     </header>
     <div class="container">
       <div class="breadcrumb">
@@ -123,10 +128,10 @@
             <button type="submit" id="button-contact"> Envoyer ma demande</button>
           </div>
         </form>
-        
+      </div>
         </fieldset>
       </section>
-    </div>
+    
 
 
     <section>
@@ -137,12 +142,13 @@
           
             <div class="adress-contact">
               <div class="adress-contact__adress">
-                <h3>NosAnimaux.fr</h3>
-                <span>127 avenue Georges </span>
-                <span>Pompidou </span>
-                <span>75100 Paris</span>
-                <span id="tel-box-contact">Téléphone: 01 75 75 05 75</span>
-                  
+                <dl>
+                <dt>NosAnimaux.fr</dt>
+                <dl>Pompidou </dl>
+                <dl>75100 Paris</dl>
+                <dl id="tel-box-contact">Téléphone: 01 75 75 05 75</dl>
+                <dl>127 avenue Georges </dl>
+              </dl> 
                 
               </div>
               <div class="adress-contact__tel">
