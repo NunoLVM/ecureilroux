@@ -13,6 +13,7 @@
   --btn-share-border-color: #333;
   --btn-share-border-radius: 6px;
   --btn-share-box-shadow: none;
+
 }
 
 .btn {
@@ -39,15 +40,23 @@
   --btn-border-color: var(--btn-share-border-color);
   --btn-border-radius: var(--btn-share-border-radius);
   --btn-box-shadow: var(--btn-share-box-shadow);
-}
+  --font-family-title: var(--font-secondary);
 
-.btn.btn-green {
-  --btn-background-color: green;
 }
 
 .btn.btn-facebook {
   --btn-background-color: #1877f2;
 }
+
+.btn.btn-twitter {
+  --btn-background-color: #000;
+}
+
+.btn.btn-pinterest {
+  --btn-background-color: #E60023;
+}
+
+
 
 .btn-close {
   --btn-background-color: #fff;

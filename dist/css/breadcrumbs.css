@@ -22,14 +22,19 @@
 @media (max-width: 768px) {
   .breadcrumb {
     padding: 20px;
-    padding: 20px 0;  
+    padding: 20px 0;
   }
 
   .breadcrumb ul li {
-    font-size: 16px;
+    display: none;
+  }
+
+  .breadcrumb ul li:last-of-type {
+    display: block;
   }
 
   .breadcrumb ul li + li:before {
     padding: 4px;
+    content: "\2190";
   }
 }
