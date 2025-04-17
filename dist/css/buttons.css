@@ -13,7 +13,6 @@
   --btn-share-border-color: #333;
   --btn-share-border-radius: 6px;
   --btn-share-box-shadow: none;
-
 }
 
 .btn {
@@ -41,7 +40,6 @@
   --btn-border-radius: var(--btn-share-border-radius);
   --btn-box-shadow: var(--btn-share-box-shadow);
   --font-family-title: var(--font-secondary);
-
 }
 
 .btn.btn-facebook {
@@ -53,13 +51,30 @@
 }
 
 .btn.btn-pinterest {
-  --btn-background-color: #E60023;
+  --btn-background-color: #e60023;
 }
-
-
 
 .btn-close {
   --btn-background-color: #fff;
   --btn-box-shadow: none;
   --btn-text-color: #333;
 }
+
+.btn.btn-newsletter {
+  --btn-padding-vertical: 8px;
+  --btn-padding-horizontal: 15px;
+  --btn-background-color: var(--color-orange);
+  --btn-text-color: #fff;
+  --btn-border-color: transparent;
+  --btn-border-radius: var(--border-radius-sm);
+  --btn-box-shadow: var(--box-shadow-blue);
+}
+
+.btn.btn.btn-newsletter:hover {
+  transform: none;
+}
+
+.btn.btn.btn-newsletter:active {
+  transform: scale(0.75);
+}
+

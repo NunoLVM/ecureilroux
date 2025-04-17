@@ -20,6 +20,8 @@
 /*Box shadow*/
 :root {
   --box-shadow-sm: 0px 0px 10px 32px rgb(0 0 0 /15%);
+  --box-shadow-xsm: 0px 0px 10px 10px rgba(44 187 195 /20%);
+  --box-shadow-blue: rgba(44, 187, 195, 0.7) 0px 3px 3px;
 }
 
 /*Font*/
