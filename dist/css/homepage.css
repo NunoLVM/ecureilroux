@@ -69,6 +69,7 @@
   color: var(--color-black);
   margin-bottom: var(--spacing3);
   font-family: var(--font-family-title);
+  background-color: white;
 }
 
 .newsletter form {
