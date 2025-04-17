@@ -4,11 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Découvrez notre bibliothèque éducative sur les animaux avec des fiches détaillées, des photos et des informations fascinantes sur la faune mondiale." />
+  <meta name="description" content="Découvrez notre bibliothèque éducative sur les animaux avec des fiches détaillées, des photos et des informations fascinantes sur la faune mondiale." />
   <meta name="author" content="Angel & Nuno" />
   <meta name="Classification" content="Educative" />
-  <title>Bibliothèque Éducative des Animaux - Découvrez la Faune Mondiale</title>
+  <title>Découvrez d’autres fiches animaux</title>
   <link rel="stylesheet" href="dist/css/theme.css" />
   <script src="script.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +17,7 @@
 </head>
 
 <body>
-
+  
   <header class="site-header" role="banner">
     <div class="site-header-logo" aria-label="Logo du site">
       <svg width="76" height="70" viewBox="0 0 111 102" fill="" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +26,7 @@
           fill="currentColor" />
       </svg>
     </div>
-
+ 
     <nav class="navigation" role="navigation" aria-label="Navigation principale">
       <ul class="navigation-header">
         <li><a href="index.html" aria-current="page">ACCUEIL</a></li>
@@ -37,47 +36,37 @@
       </ul>
     </nav>
   </header>
-
-
+  
   <div class="container">
-    <section class="main-home">
-      <h1 class="top-title">Bibliotheque Educative des Animaux</h1>
-
-      <picture>
-        <source srcset="animals.webp" media="(max-width: 1024)" />
-        <img src="images/animals.webp" alt="groupe d'animaux" />
-      </picture>
-
-    </section>
-
-    <div class="box-group">
-      <div class="box">
-        <h3>L'enclyclopédie des animaux pour les enfants</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
-
-        </p>
-      </div>
-      <div class="box">
-        <h3>box2</h3>
-        <p>??</p>
-      </div>
+    <div class="breadcrumb" aria-label="Fil d'Ariane">
+      <ul>
+        <li><a href="index.html" title="accueil">Accueil</a></li>
+        
+      </ul>
     </div>
   </div>
 
-  <section class="newsletter" aria-labelledby="newsletter-title">
+
+<section class="box-container">
     <div class="container">
-      <h2>Inscrivez-vous à notre Newsletter</h2>
-      <form action="#" method="post" aria-label="Formulaire d'inscription à la newsletter">
-        <input type="email" name="email" placeholder="Votre email" required />
-        <button type="submit" class="btn btn-newsletter">S'inscrire</button>
-      </form>
+      <div class="box-group">
+        <h2>Découvrez d’autres fiches animaux</h2>
+        <div class="box">
+          <h3>box1</h3>
+          <p>??</p>
+        </div>
+        <div class="box">
+          <h3>box2</h3>
+          <p>??</p>
+        </div>
+        <div class="box">
+          <h3>box3</h3>
+          <p>??</p>
+        </div>
+      </div>
     </div>
   </section>
+
 
   <section>
     <div class="boxAnimal">
