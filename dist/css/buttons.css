@@ -13,7 +13,16 @@
   --btn-share-border-color: #333;
   --btn-share-border-radius: 6px;
   --btn-share-box-shadow: none;
+
+  --btn-fiches-padding-vertical: 10px;
+  --btn-fiches-padding-horizontal: 20px;
+  --btn-fiches-background-color: var(--color-blue);
+  --btn-fiches-text-color: var(--color-white);
+  --btn-fiches-border-color: transparent;
+  --btn-fiches-border-radius: var(--border-radius-sm);
+  --btn-fiches-box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
+
 
 .btn {
   padding: var(--btn-padding-vertical) var(--btn-padding-horizontal);
@@ -78,3 +87,21 @@
   transform: scale(0.9);
 }
 
+.btn.btn-fiches {
+
+  display: inline-block;
+  background-color: var(--btn-fiches-background-color);
+  color: var(--btn-fiches-text-color);
+  padding: var(--btn-fiches-padding-vertical) var(--btn-fiches-padding-horizontal);
+  border-radius: var(--btn-fiches-border-radius);
+  border: 1px solid var(--btn-fiches-border-color);
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: var(--btn-fiches-box-shadow);
+  
+}
+
+.btn.btn-fiches:hover {
+  background-color: var(--color-orange);
+
+}

@@ -1,0 +1,118 @@
+
+.quiz-container {
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .quiz-container h1 {
+    font-size: var(--font-size-header);
+    font-weight: bold;
+    color: var(--color-blue);
+    margin-bottom: var(--spacing3); 
+    font-family: var(--font-family-title);
+
+}
+  
+  .quiz-container h1 + p {
+    margin-top: var(--spacing3); 
+    margin-bottom: var(--spacing3);
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-secondary);
+  }
+  
+  
+  .quiz-box {
+    background-color: var(--color-orange);
+    padding: var(--spacing5);
+    border-radius: var(--border-radius-sm);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .quiz-box h2 {
+    font-size: var(--font-size-header);
+    font-weight: bold;
+    color: var(--color-black);
+    margin-bottom: var(--spacing2);
+    font-family: var(--font-secondary);
+  }
+  
+  
+ 
+  .quiz-question {
+    font-size: var(--font-size-header);
+    font-weight: bold;
+    color: var(--color-black);
+    margin-bottom: var(--spacing5);
+    font-family: var(--font-family-title);
+  }
+  
+  
+  .quiz-options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .quiz-choice {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing2);
+    padding: var(--spacing2);
+    margin-bottom: var(--spacing2);
+    cursor: pointer;
+    border: 2px solid var(--color-blue);
+    background-color: var(--color-white);
+    font-size: var(--font-size-base);
+    border-radius: var(--border-radius-sm);
+    font-family: var(--font-secondary);
+  }
+  
+  
+  .quiz-choice input {
+    margin-right: var(--spacing2);
+  }
+  
+ 
+  
+  .quiz-choice:has(input:checked) {
+    font-weight: bold;
+    color: var(--color-black);
+  }
+  
+ 
+  .quiz-next {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: var(--spacing3);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    border-color: var(--color-blue);
+    margin-top: var(--spacing4);
+    
+  }
+  
+  
+  .quiz-next:hover {
+    background-color: var(--color-blue);
+    border-color:  var(--color-white);
+    color: var(--color-white);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .quiz-container {
+      max-width: 90%;
+      margin: 20px auto;
+    }
+  
+    .quiz-box {
+      padding: var(--spacing3);
+    }
+  
+    .quiz-choice {
+      font-size: var(--font-size-small);
+    }
+  }
+  

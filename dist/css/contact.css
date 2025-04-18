@@ -144,5 +144,8 @@ body {
 }
 
 #button-contact {
-  border-color: var(--color-orange);
+ border-color: var(--color-orange);
+ border-radius: var(--border-radius-sm);
+ box-shadow: var(--box-shadow-blue);
+ padding: var(--btn-padding-vertical) var(--btn-padding-horizontal);
 }
