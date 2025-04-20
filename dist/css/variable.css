@@ -35,9 +35,12 @@
   --font-weight-xl: 800;
   --font-size-base:16px;
   --font-size-sm: 14px;
+  --font-size-footer-m:12px;
+  --font-size-copyright:10px;
 
   @media (max-width: 480px) {
     --font-size-base: var(--font-size-sm);
+    
   }
 }
 :root {
