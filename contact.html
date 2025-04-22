@@ -18,25 +18,50 @@
   <body>
     <div class="share-box-container">
       <div class="share-box">
-        <div class="share-title">
-          Partager
-          <button class="btn btn-close" type="button">&#x2715;</button>
-        </div>
-        <div class="share-content">
-          <div class="share-buttons">
-            <a href="https://x.com/" class="btn btn-twitter">
-              Partager sur Twitter
-            </a>
-            <a href="https://facebook.com/" class="btn btn-facebook">
-              Partager sur Facebook
-            </a>
-            <a href="https://Pinterest.com/" class="btn btn-pinterest">
-              Partager sur Pinterest
-            </a>
+        <div class="share-title">Se connecter
+        <button class="btn btn-close" type="button">&#x2715;</button>
+      </div>
+        <fieldset class="box-fields">
+          <div class="fields">
+            <form action="/traitement.php" method="POST">
+              <div class="form-group">
+                <label for="email">Adresse e-mail</label>
+                <input class="form-control" type="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input
+                  class="form-control"
+                  type="password"
+                  required
+                  name="password"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="btn"
+                  type="submit"
+                  value="Me connecter"
+                  required
+                />
+              </div>
+              <div class="share-ou">Ou</div>
+              <div class="form-group">
+                <div class="form-control">
+                  <a href="https://www.google.com/intl/fr/account/about/sign-in-with-google/" aria-current="page" class=".btn.btn-share"
+                    ><img src="images/google.png" alt="logo google" width="27px" /><span> Se
+                    connecter avec Google</span></a
+                  >
+                   
+                </div>
+              </div>
+            </form>
           </div>
-        </div>
+        </fieldset>
       </div>
     </div>
+  </div>
     <header class="site-header">
       <div class="site-header-logo">
         <svg
@@ -81,7 +106,6 @@
           <li id="contact">
             <a href="contact.html" title="Contact">CONTACT</a>
           </li>
-          
         </ul>
       </nav>
     </header>
@@ -89,14 +113,17 @@
     <div class="container">
       <div class="breadcrumb">
         <ul>
-          <li><a href="index.html" title="acceuil">Acceuil</a></li>
+          <li><a href="index.html" title="accueil">Accueil</a></li>
           <li>Contact</li>
         </ul>
       </div>
 
+      
       <section class="fiche-contact">
         <div class="overview">
           <h1 class="top-title">Contacter notre équipe</h1>
+          <button type="button" class="btn btn-share">Se connecter</button>
+
         </div>
         <div class="intro">
           <p>
@@ -215,7 +242,7 @@
       </section>
     </div>
     <footer id="footer">
-      <div class="box-footer">        
+      <div class="box-footer">
         <div class="logo-footer">
           <div id="circle-footer" width="80px" height="80px"><span></span></div>
           <svg
@@ -236,31 +263,67 @@
         <div>
           <dl>
             <dt>Magazine</dt>
-            <dl><a href="#" title="lien Espèces animales">Espèces animales</a></dl>
-            <dl><a href="#" title="lien Les zoos de France">Les zoos de France</a></dl>
+            <dl>
+              <a href="#" title="lien Espèces animales">Espèces animales</a>
+            </dl>
+            <dl>
+              <a href="#" title="lien Les zoos de France">Les zoos de France</a>
+            </dl>
             <dl><a href="#" title="lien Adoptions">Adoptions</a></dl>
             <dl><a href="#">Associations</a></dl>
             <dl><a href="#">Magazines</a></dl>
-          </dl> 
+          </dl>
         </div>
         <div>
           <dl>
             <dt>Informations</dt>
-            <dl><a href="#" title="lien Qui sommes-nous ?">Qui sommes-nous ?</a></dl>
+            <dl>
+              <a href="#" title="lien Qui sommes-nous ?">Qui sommes-nous ?</a>
+            </dl>
             <dl><a href="#" title="lien Nos magazines">Nos magazines</a></dl>
             <dl><a href="#" title="lien Recrutement">Recrutement</a></dl>
-            <dl><a href="#" title="lien Conditions générales">Conditions générales</a></dl>
-            <dl><a href="contact.html" title="lien Nous contacter?">Nous contacter</a></dl>
+            <dl>
+              <a href="#" title="lien Conditions générales"
+                >Conditions générales</a
+              >
+            </dl>
+            <dl>
+              <a href="contact.html" title="lien Nous contacter?"
+                >Nous contacter</a
+              >
+            </dl>
           </dl>
         </div>
         <div>
           <dl>
             <dt>Derniers articles</dt>
-            <dl><a href="#" title="lien Quel est le meilleur zoo de France">Quel est le meilleur zoo de France</a></dl>
-            <dl><a href="#" title="lien Départ en vacances : où faire garder son chien ?">Départ en vacances : où faire garder son chien ?</a></dl>
-            <dl><a href="#" title="lien Les meilleures croquettes pour son chien">Les meilleures croquettes pour son chien</a></dl>
-            <dl><a href="#" title="lien Tout savoir sur la Giraffe">Tout savoir sur la Giraffe</a></dl>
-            <dl><a href="#" title="lien Où voir des renards roux en France ?">Où voir des renards roux en France ?</a></dl>
+            <dl>
+              <a href="#" title="lien Quel est le meilleur zoo de France"
+                >Quel est le meilleur zoo de France</a
+              >
+            </dl>
+            <dl>
+              <a
+                href="#"
+                title="lien Départ en vacances : où faire garder son chien ?"
+                >Départ en vacances : où faire garder son chien ?</a
+              >
+            </dl>
+            <dl>
+              <a href="#" title="lien Les meilleures croquettes pour son chien"
+                >Les meilleures croquettes pour son chien</a
+              >
+            </dl>
+            <dl>
+              <a href="#" title="lien Tout savoir sur la Giraffe"
+                >Tout savoir sur la Giraffe</a
+              >
+            </dl>
+            <dl>
+              <a href="#" title="lien Où voir des renards roux en France ?"
+                >Où voir des renards roux en France ?</a
+              >
+            </dl>
           </dl>
         </div>
       </div>

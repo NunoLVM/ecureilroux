@@ -149,3 +149,16 @@ body {
  box-shadow: var(--box-shadow-blue);
  padding: var(--btn-padding-vertical) var(--btn-padding-horizontal);
 }
+.form-group a{
+  display:flex;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding-right:10px ;
+
+} 
+.form-group a span{
+  align-self: center;
+  padding-left: 10px;
+}
