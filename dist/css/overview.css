@@ -180,3 +180,11 @@ th {
     height: auto;
   }
 }
+
+#ageArticle {
+  font-family: var(--font-family-secondary);
+  color: var(--color-black); 
+  text-align: center;
+  margin: var(--spacing3) auto; 
+}
+

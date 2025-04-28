@@ -105,3 +105,21 @@
   background-color: var(--color-orange);
 
 }
+
+
+.btn.btn-top {
+  position: fixed; 
+  bottom: var(--spacing5); 
+  left: 50%; 
+  transform: translateX(-50%); 
+  cursor: pointer;
+  transform-origin: center;
+  font-size: var(--font-size-base);
+  padding: calc(var(--btn-padding-vertical) * 1.5) calc(var(--btn-padding-horizontal) * 1.5); 
+  display: none;
+}
+
+
+.btn.btn-top:hover {
+  transform: translateX(-50%) scale(1.1);
+}
