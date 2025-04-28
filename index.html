@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" >
 
 <head>
   <meta charset="UTF-8" />
@@ -11,13 +11,14 @@
   <title>Bibliothèque Éducative des Animaux - Découvrez la Faune Mondiale</title>
   <link rel="stylesheet" href="dist/css/theme.css" />
   <script src="script.js" async></script>
+  <script src="darkMode.js" async></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
 </head>
 
-<body>
+<body class="dark-mode">
 
   <header class="site-header" role="banner">
     <div class="site-header-logo" aria-label="Logo du site">
@@ -46,7 +47,8 @@
 
   </header>
 
-
+  <button id="btnDarkMode" onclick="toggleTheme()">Changer de thème</button>
+  
   <div class="container">
     <section class="main-home">
       <h1 class="top-title">Bibliotheque Educative des Animaux</h1>
