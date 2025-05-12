@@ -123,3 +123,9 @@
 .btn.btn-top:hover {
   transform: translateX(-50%) scale(1.1);
 }
+
+/* .btn-like{
+  width: 60px;
+  height: 60px;
+  border-radius: --border-radius-picture;
+} */

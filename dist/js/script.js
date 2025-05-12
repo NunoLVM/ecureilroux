@@ -1,3 +1,9 @@
+import { compteurDeMots } from "./components/CompteurDeMots.js"
+
+compteurDeMots();
+
+
+
 let shareBtn = document.querySelector(".btn-share");
 let closeModal = document.querySelector(".btn-close");
 let btnMainNav = document.getElementById('toggleMenu');
@@ -52,4 +58,5 @@ btnTop.onclick = function() {
   window.scrollTo({ top: 0, behavior: "smooth" }); 
 
 }
+
 

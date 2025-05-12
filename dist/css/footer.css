@@ -83,7 +83,6 @@
     }
   }
   #footer{
-  margin-top:0;
-  padding-bottom: 20px;
-    background-color:var(--color-white);
-}
+    margin-top:0;
+    padding-bottom: 20px;
+  }
