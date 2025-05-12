@@ -143,7 +143,8 @@
         <fieldset class="box-fields">
           <div class="fields">
             <h2>Formulaire de contact</h2>
-            <form action="" method="GET">
+            <form id="comment-form" action="" method="GET">
+              <div id="form-msg-js"></div>
               <div class="form-group">
                 <label for="nom_prenom">Votre nom et prénom :</label>
                 <input
@@ -192,7 +193,7 @@
                 </span>
               </div>
               <div class="form-group">
-                <button type="button" id="button-contact">
+                <button type="submit" id="button-contact">
                   Envoyer ma demande
                 </button>
               </div>
@@ -330,7 +331,6 @@
       <hr />
       <div id="copyright">© 2025 LeMondeAnimal.com — Tousdroits réservés</div>
     </footer>
-    <script src="script.js" async></script>
     <script src="commentaire.js"></script>
   </body>
 </html>
