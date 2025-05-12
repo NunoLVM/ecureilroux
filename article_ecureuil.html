@@ -8,7 +8,7 @@
     <meta name="Classification" content="Educative" />
     <title>Biblio Animaux</title>
     <link rel="stylesheet" href="dist/css/theme.css" />
-    <script src="script.js" defer></script>
+    <script src="dist/js/script.js" type="module" async></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,6 @@
   </head>
 
   <body>
-    <div id="compteur"> 
      
     <div class="share-box-container">
       <div class="share-box">
@@ -92,7 +91,6 @@
           <li>Fiches Animaux</li>
         </ul>
       </div>
-     <div id="resultatCompteur"></div>
 
       <div class="overview">
         <h1 class="top-title">L'écureuil roux</h1>
@@ -119,9 +117,11 @@
       </div>
     </div>
 
-    <div id="compteur">
-      <div id="ageArticle"></div> 
-    </div>
+    <ul>
+      <li id="compteur"><div id="ageArticle"></div></li>
+      <li id="resultatCompteur"></li>
+    </ul>
+    
 
     <div class="container">
       <div class="main-container">
@@ -145,7 +145,7 @@
               <img src="images/eccureil2.png" alt="eccureil" />
             </picture>
           </div>
-          <div class="container">
+          <div class="container article-body">
             <article class="container-box">
               <h2 class="title-article">Caractère et comportement</h2>
               <p>
@@ -228,7 +228,14 @@
                 </tbody>
               </table>
             </article>
-
+           
+           
+            <!-- <button onclick="compteurLike()"  class="btn-like" ><img src="images/like-svgrepo-com.svg"></button> -->
+            <input type="image" id="compteurLike" src="images/like-svgrepo-com.svg" onclick="compteurLike()">
+            
+            <div class="msgSpecial"></div>
+           
+           
             <!-- commentaires -->
             <div class="comments">
               <h2 class="number-comments">0 Commentaires</h2>
@@ -283,7 +290,8 @@
                       ></textarea>
                     </div>
                   </fieldset>
-                </form>
+                </form> 
+                
                 <div class="checkbox">
                   <label for="policy">
                     <input
@@ -447,11 +455,9 @@
       </div>
       <hr />
       <div id="copyright">© 2025 LeMondeAnimal.com — Tousdroits réservés</div>
-    </div>
     </footer>
 
     <button id="btnTop" class="btn btn-top" >Remonter en haut</button>
 
-    <script defer src="compteurDeMots.js"></script>
     </body>
 </html>

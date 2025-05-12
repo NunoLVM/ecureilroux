@@ -9,6 +9,15 @@
   }
   
   body.dark-mode {
-    --background-color: #121212;
-    --text-color: #f1f1f1;
+    --background-color: var(--color-bg-darkmode);
+  }
+
+  body.dark-mode footer a {
+    color: #fff;
+  }
+
+
+
+.top-title.dark-mode{
+    --text-color: white;
   }
